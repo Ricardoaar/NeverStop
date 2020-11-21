@@ -7,7 +7,8 @@ public enum CollectableType
     Researching, //investigating or researching? xD
     Reading,
     Exercising,
-    Laughing
+    Laughing,
+    Null
 }
 
 public class Collectable : MonoBehaviour
@@ -27,11 +28,6 @@ public class Collectable : MonoBehaviour
         _renderer = GetComponent<SpriteRenderer>();
     }
 
-    private void Start()
-    {
-        var torque = Random.Range(-1.5f, 1.5f);
-        _rigidbody.AddTorque(torque, ForceMode2D.Impulse);
-    }
 
     public CollectableType GetCollectableType()
     {
@@ -49,15 +45,28 @@ public class Collectable : MonoBehaviour
         if (!_canSum) return;
         _canSum = false;
         particleSystem.Play();
-        /* TODO: Las siguientes lineas no creo que sea necesaria, si el objeto es
-        destuido, el object pool es inutil.*/
-        //_renderer.enabled = false;
-        //Destroy(gameObject, 2);
+        _renderer.enabled = false;
     }
 
-
+    /// <summary>
+    /// Metodo estatico para cambiar la velocidad de todos los collectables al cambiar fases 
+    /// </summary>
+    /// <param name="newVelocity"></param>
     public static void ChangeVelocity(float newVelocity)
     {
         _velocity = newVelocity;
+    }
+
+    private void OnEnable()
+    {
+        var torque = Random.Range(-1.5f, 1.5f);
+        _rigidbody.AddTorque(torque, ForceMode2D.Impulse);
+        RestartedValues();
+    }
+
+    private void RestartedValues()
+    {
+        _canSum = true;
+        _renderer.enabled = true;
     }
 }

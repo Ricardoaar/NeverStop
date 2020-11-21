@@ -2,15 +2,16 @@
 
 public class SpawnArea : MonoBehaviour
 {
-    [Tooltip("Tiempo entre cada spawn")]
-    public float timeBetweenSpawn = 5.0f;
+    [Tooltip("Tiempo entre cada spawn")] public float timeBetweenSpawn = 5.0f;
 
-    [Tooltip("Object Pool encargada de gestionar los Collectables")]
-    [SerializeField] private ObjectPool _pool;
-    [Tooltip("Zona de spawn de los collectables")]
-    [SerializeField] private Transform _spawnZone;
-    [Tooltip("Zona para despawnear los Collectables")]
-    [SerializeField] private Transform _killZone;
+    [Tooltip("Object Pool encargada de gestionar los Collectables")] [SerializeField]
+    private ObjectPool _pool;
+
+    [Tooltip("Zona de spawn de los collectables")] [SerializeField]
+    private Transform _spawnZone;
+
+    [Tooltip("Zona para despawnear los Collectables")] [SerializeField]
+    private Transform _killZone;
 
     private float _timeToSpawn = 0.0f;
 

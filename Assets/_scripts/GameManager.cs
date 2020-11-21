@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
             SingleInstance = this;
     }
 
+
     private void ChangeGameState(GameState newGameState)
     {
         switch (newGameState)
