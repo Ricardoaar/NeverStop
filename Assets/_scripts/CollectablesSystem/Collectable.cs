@@ -49,8 +49,10 @@ public class Collectable : MonoBehaviour
         if (!_canSum) return;
         _canSum = false;
         particleSystem.Play();
-        _renderer.enabled = false;
-        Destroy(gameObject, 2);
+        /* TODO: Las siguientes lineas no creo que sea necesaria, si el objeto es
+        destuido, el object pool es inutil.*/
+        //_renderer.enabled = false;
+        //Destroy(gameObject, 2);
     }
 
 
