@@ -49,7 +49,7 @@ public class Collectable : MonoBehaviour
     }
 
     /// <summary>
-    /// Metodo estatico para cambiar la velocidad de todos los collectables al cambiar fases 
+    /// Metodo estatico para cambiar la velocidad de todos los collectables al cambiar fases
     /// </summary>
     /// <param name="newVelocity"></param>
     public static void ChangeVelocity(float newVelocity)
@@ -61,6 +61,9 @@ public class Collectable : MonoBehaviour
     {
         var torque = Random.Range(-1.5f, 1.5f);
         _rigidbody.AddTorque(torque, ForceMode2D.Impulse);
+        var template = Random.Range(0, GameManager.SingleInstance.collectables.Count);
+        _renderer.sprite = GameManager.SingleInstance.collectables[template].sprite;
+        type = GameManager.SingleInstance.collectables[template].type;
         RestartedValues();
     }
 

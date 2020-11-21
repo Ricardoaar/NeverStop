@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public enum GameState
@@ -11,7 +12,9 @@ public enum GameState
 public class GameManager : MonoBehaviour
 {
     private GameState _currentGameState;
+
     public static GameManager SingleInstance;
+    public List<ScriptableCollectable> collectables = new List<ScriptableCollectable>();
 
     private void Awake()
     {

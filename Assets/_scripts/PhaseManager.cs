@@ -46,7 +46,7 @@ public class PhaseManager : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
         }
 
-        var currentCollectable = Random.Range(0, _collectTypeNum);
+        var currentCollectable = Random.Range(0, GameManager.SingleInstance.collectables.Count);
         InGameGUI.SingleInstace.ChangeObj(false, currentCollectable);
         PlayerStats.SingleInstance.ChangeCollectableType((CollectableType) currentCollectable);
         _currentGoalTime = Random.Range(minTimeBetweenPhase, maxTimeBetweenPhase);

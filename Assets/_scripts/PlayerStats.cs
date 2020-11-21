@@ -73,6 +73,11 @@ public class PlayerStats : MonoBehaviour
         _currentCollectable = newCollectableTypeType;
     }
 
+    public CollectableType GetCurrentCollectable()
+    {
+        return _currentCollectable;
+    }
+
     private void ChangeEnergy(float energyWin, bool win = true)
     {
         _currentEnergy = Mathf.Clamp(win ? _currentEnergy + energyWin : _currentEnergy - energyWin, 0, initialEnergy);

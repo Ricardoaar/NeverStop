@@ -18,10 +18,7 @@ public class InGameGUI : MonoBehaviour
     private List<Sprite> _objects = new List<Sprite>();
     public static InGameGUI SingleInstace;
 
-    public Sprite learning, researching, reading, exercising, laughing;
-
     private float _energyDivider;
-
 
     private List<String> _objectsNames = new List<string>();
 
@@ -31,19 +28,18 @@ public class InGameGUI : MonoBehaviour
         {
             SingleInstace = this;
         }
-
-        _objectsNames = Enum.GetNames(typeof(CollectableType)).ToList();
-        _objects.Add(learning);
-        _objects.Add(researching);
-        _objects.Add(reading);
-        _objects.Add(exercising);
-        _objects.Add(laughing);
     }
 
     private void Start()
     {
         _energyDivider = 1 / PlayerStats.SingleInstance.GetCurrentEnergy();
         Debug.Log(_energyDivider);
+
+        foreach (var item in GameManager.SingleInstance.collectables)
+        {
+            _objects.Add(item.sprite);
+            _objectsNames.Add(item.name);
+        }
     }
 
     private void Update()
