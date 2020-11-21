@@ -7,10 +7,19 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_scripts" t="Include">
-          <e p="Collectable" t="Include">
+          <e p="Canvas" t="Include">
+            <e p="InGameGUI.cs" t="Include" />
+          </e>
+          <e p="CollectablesSystem" t="Include">
             <e p="Collectable.cs" t="Include" />
+            <e p="FactoryCollectable.cs" t="Include" />
+            <e p="KillZone.cs" t="Include" />
+            <e p="ObjectPool.cs" t="Include" />
+            <e p="ScriptableCollectable.cs" t="Include" />
+            <e p="SpawnArea.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
+          <e p="PhaseManager.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
           <e p="Util" t="Include">
