@@ -3,10 +3,12 @@ using UnityEngine;
 
 public class ObjectPool : MonoBehaviour
 {
-    [Tooltip("Objeto base a spawnear (sus propiedades serán modificadas con ScriptableObjects)")]
-    [SerializeField] private GameObject _collectableBase;
-    [Tooltip("Número de objetos iniciales que tendrá el Object Pool")]
-    [SerializeField] private int _maxCollectables = 10;
+    [Tooltip("Objeto base a spawnear (sus propiedades serán modificadas con ScriptableObjects)")] [SerializeField]
+    private GameObject _collectableBase;
+
+    [Tooltip("Número de objetos iniciales que tendrá el Object Pool")] [SerializeField]
+    private int _maxCollectables = 10;
+
     private Queue<GameObject> _queue;
     private FactoryCollectable _factoryCollectable;
 

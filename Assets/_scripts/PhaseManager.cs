@@ -43,12 +43,17 @@ public class PhaseManager : MonoBehaviour
         {
             InGameGUI.SingleInstace.ChangeObj(true);
 
-            yield return new WaitForSeconds(Random.Range(0.1f, 0.3f));
+            yield return new WaitForSeconds(0.2f);
+
+            if (i == 0)
+                PlayerStats.SingleInstance.ChangeCollectableType(CollectableType.Null);
         }
 
+        //Change UI and final item
         var currentCollectable = Random.Range(0, GameManager.SingleInstance.collectables.Count);
         InGameGUI.SingleInstace.ChangeObj(false, currentCollectable);
-        PlayerStats.SingleInstance.ChangeCollectableType((CollectableType) currentCollectable);
+        PlayerStats.SingleInstance.ChangeCollectableType(currentCollectable);
+        //ResetTimeAndCoroutine
         _currentGoalTime = Random.Range(minTimeBetweenPhase, maxTimeBetweenPhase);
         _currentTime = 0;
         _cChangeTarget = null;
