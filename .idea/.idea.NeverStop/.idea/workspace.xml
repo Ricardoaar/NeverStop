@@ -11,66 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a46eac7-0878-49de-bb4f-2faefd8a03e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@Energy.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@Energy.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@EnergySlide.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@EnergySlide.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/Base.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/Base.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/Colorfull.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/Colorfull.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/PjAmarillo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/PjAmarillo.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/PjAzul.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/PjAzul.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/PjCafe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/PjCafe.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/cabeza 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Dummies/cabeza 1.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/UI_InGame.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/UI_InGame.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rocket (1).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Rocket (1).png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/background_inicial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/background_inicial.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/rocket_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Sprites/rocket_white.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/NeverStop.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/NeverStop.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Collectables.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Collectables/Collectable.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Collectables/Collectable.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Collectables/Explosion.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/Collectables/Explosion.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/GUI .prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/GUI .prefab.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/SFX.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dummies/DummyPj.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dummies/DummyPj.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BaseScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BaseScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Test_ObjectPool.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Test_ObjectPool.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Red.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Color Gradient Presets/Blue to Red.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/SpawnArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/SpawnArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ObjectPool.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ObjectPool.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Collectable.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Collectable.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Explosion.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Explosion.prefab.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,8 +50,9 @@
         <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" />
       </list>
     </option>
   </component>
@@ -157,6 +104,8 @@
       <workItem from="1605840921199" duration="17034000" />
       <workItem from="1605896032077" duration="11087000" />
       <workItem from="1605940000412" duration="3709000" />
+      <workItem from="1605993188436" duration="1143000" />
+      <workItem from="1605994349679" duration="1020000" />
     </task>
     <servers />
   </component>

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Elements", menuName = "ScriptableObjects/Element", order = 1)]
+[CreateAssetMenu(fileName = "Collectables", menuName = "ScriptableObjects/Collectable", order = 1)]
 public class ScriptableCollectable : ScriptableObject
 {
     public string elementName;

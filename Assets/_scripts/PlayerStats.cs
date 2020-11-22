@@ -68,9 +68,19 @@ public class PlayerStats : MonoBehaviour
         return _currentEnergy;
     }
 
+    public void ChangeCollectableType(int newCollectableTypeType)
+    {
+        _currentCollectable = GameManager.SingleInstance.collectables[newCollectableTypeType].type;
+    }
+
     public void ChangeCollectableType(CollectableType newCollectableTypeType)
     {
         _currentCollectable = newCollectableTypeType;
+    }
+
+    public CollectableType GetCurrentCollectable()
+    {
+        return _currentCollectable;
     }
 
     private void ChangeEnergy(float energyWin, bool win = true)
