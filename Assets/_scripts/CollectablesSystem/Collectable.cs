@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEditor;
+using UnityEngine;
 using Random = UnityEngine.Random;
 
 public enum CollectableType
@@ -60,12 +62,33 @@ public class Collectable : MonoBehaviour
     private void OnEnable()
     {
         var torque = Random.Range(-1.5f, 1.5f);
+
         _rigidbody.AddTorque(torque, ForceMode2D.Impulse);
-        var template = Random.Range(0, GameManager.SingleInstance.collectables.Count);
+
+        var template = GetTemplate();
+
         _renderer.sprite = GameManager.SingleInstance.collectables[template].sprite;
+
         type = GameManager.SingleInstance.collectables[template].type;
         RestartedValues();
     }
+
+    private int GetTemplate()
+    {
+        var temp = 0;
+        if (Random.Range(0.0f, 1.0f) < 0.3f)
+        {
+            foreach (var collectable in GameManager.SingleInstance.collectables.Where(collectable =>
+                collectable.type == PlayerStats.SingleInstance.GetCurrentCollectable()))
+                temp = GameManager.SingleInstance.collectables.IndexOf(collectable);
+        }
+        else
+            temp = Random.Range(0, GameManager.SingleInstance.collectables.Count);
+
+
+        return temp;
+    }
+
 
     private void RestartedValues()
     {

@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum GameState
 {
@@ -9,12 +9,15 @@ public enum GameState
     MainMenu
 }
 
+
 public class GameManager : MonoBehaviour
 {
     private GameState _currentGameState;
 
     public static GameManager SingleInstance;
     public List<ScriptableCollectable> collectables = new List<ScriptableCollectable>();
+    public UnityEvent onPause;
+    public UnityEvent onGameOver;
 
     private void Awake()
     {
@@ -27,21 +30,18 @@ public class GameManager : MonoBehaviour
 
     private void ChangeGameState(GameState newGameState)
     {
-        switch (newGameState)
-        {
-            case GameState.InGame:
-                break;
-            case GameState.GameOver:
-                break;
-            case GameState.MainMenu:
-                break;
-            default:
-                throw new ArgumentOutOfRangeException(nameof(newGameState), newGameState, null);
-        }
+        _currentGameState = newGameState;
     }
 
     public GameState GetCurrentGameState()
     {
         return _currentGameState;
+    }
+
+
+    public void GameOver()
+    {
+        ChangeGameState(GameState.GameOver);
+        onGameOver.Invoke();
     }
 }

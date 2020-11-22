@@ -21,8 +21,6 @@ public class PlayerStats : MonoBehaviour
     {
         if (SingleInstance == null)
             SingleInstance = this;
-
-        _scoreMultiplier = 1;
     }
 
     private void Start()
@@ -37,6 +35,8 @@ public class PlayerStats : MonoBehaviour
         ChangeEnergy(energyLostPerSecond * Time.fixedDeltaTime, false);
         _currentScore += Time.deltaTime * _scoreMultiplier;
         _scoreMultiplier += Time.deltaTime / scoreDivider;
+        if (_currentEnergy <= 0)
+            GameManager.SingleInstance.GameOver();
     }
 
 //Collectables
@@ -56,6 +56,7 @@ public class PlayerStats : MonoBehaviour
         _currentCollectable = CollectableType.Null;
         _currentEnergy = initialEnergy;
         _currentScore = 0;
+        _scoreMultiplier = 1;
     }
 
     public float GetCurrentScore()
