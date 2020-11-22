@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 05f3ce372ed849f49a2bf765e9d6d6e4, type: 3}
   m_Name: Exercising
   m_EditorClassIdentifier: 
-  elementName: Exercising
+  elementName: Ejercitarte
   type: 3
   sprite: {fileID: 21300000, guid: f66ae6298e094324180d5a71744d6af3, type: 3}
   colliderX: 0

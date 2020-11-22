@@ -19,6 +19,7 @@
             <e p="SpawnArea.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
+          <e p="LoadSceneGame.cs" t="Include" />
           <e p="PhaseManager.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />

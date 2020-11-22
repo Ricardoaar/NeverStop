@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using TMPro;
 using UnityEngine;
 using Image = UnityEngine.UI.Image;
@@ -22,6 +20,10 @@ public class InGameGUI : MonoBehaviour
 
     private List<String> _objectsNames = new List<string>();
 
+    [Header("Leds")] public Image redButtonImg;
+    public Image greenButtonImg;
+    public Sprite redButton, greenButton, buttonDown;
+
     private void Awake()
     {
         if (SingleInstace == null)
@@ -33,12 +35,11 @@ public class InGameGUI : MonoBehaviour
     private void Start()
     {
         _energyDivider = 1 / PlayerStats.SingleInstance.GetCurrentEnergy();
-        Debug.Log(_energyDivider);
 
         foreach (var item in GameManager.SingleInstance.collectables)
         {
             _objects.Add(item.sprite);
-            _objectsNames.Add(item.name);
+            _objectsNames.Add(item.elementName);
         }
     }
 
@@ -64,5 +65,10 @@ public class InGameGUI : MonoBehaviour
             currentObject.sprite = _objects[Random.Range(0, _objects.Count)];
             currentObjText.text = _objectsNames[Random.Range(0, _objects.Count)];
         }
+    }
+
+    public void SwitchSprite(ref Image current, Sprite newSprite)
+    {
+        current.sprite = newSprite;
     }
 }
