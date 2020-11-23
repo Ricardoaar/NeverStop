@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
@@ -48,6 +49,10 @@ public class Collectable : MonoBehaviour
         _canSum = false;
         particleSystem.Play();
         _renderer.enabled = false;
+        if (GetCollectableType() == PlayerStats.SingleInstance.GetCurrentCollectable())
+            PlayerStats.SingleInstance.ChangeEnergy(PlayerStats.SingleInstance.energyPerObj);
+        else
+            PlayerStats.SingleInstance.ChangeEnergy(PlayerStats.SingleInstance.energyLostPerBadObj, false);
     }
 
     /// <summary>
@@ -94,5 +99,14 @@ public class Collectable : MonoBehaviour
     {
         _canSum = true;
         _renderer.enabled = true;
+    }
+
+
+    private void OnMouseDown()
+    {
+        if (!PlayerStats.SingleInstance.Shoot()) return;
+        BeCollected();
+        InGameGUI.SingleInstace.SwitchSprite(ref InGameGUI.SingleInstace.redButtonImg, InGameGUI.SingleInstace
+            .buttonDown);
     }
 }

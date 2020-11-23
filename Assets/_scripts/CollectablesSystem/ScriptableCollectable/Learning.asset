@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementName: Aprender
   type: 0
-  sprite: {fileID: 21300000, guid: 99102bd3f40cb714caf80a9387ec7082, type: 3}
+  sprite: {fileID: -5528187335942411794, guid: f8476e53f91b42e40959d1a11eff38e5, type: 3}
   colliderX: 0
   colliderY: 0
   rotation: {x: 0, y: 0, z: 0, w: 0}
