@@ -26,7 +26,6 @@ public class Collectable : MonoBehaviour
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _velocity = 5;
         _canSum = true;
         _renderer = GetComponent<SpriteRenderer>();
     }

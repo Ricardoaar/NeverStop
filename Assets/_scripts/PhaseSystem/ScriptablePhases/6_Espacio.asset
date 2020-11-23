@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca5d153801ac36441b5bf7f8cfc35866, type: 3}
+  m_Name: 6_Espacio
+  m_EditorClassIdentifier: 
+  atmosphereLayer: Espacio
+  atmosphereLayerDescription: WELCOME TO THE SPACE!
+  minTimeCollectableChange: 5
+  maxTimeCollectableChange: 10
+  collectableVelocity: 6
+  timeToSpawn: 0.5
+  scoreToChangePhase: 5000
+  color: {r: 0, g: 0, b: 0, a: 0}
