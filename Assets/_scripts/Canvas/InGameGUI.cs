@@ -24,6 +24,7 @@ public class InGameGUI : MonoBehaviour
     public Image greenButtonImg;
     public Sprite redButton, greenButton, buttonDown;
 
+
     private void Awake()
     {
         if (SingleInstace == null)

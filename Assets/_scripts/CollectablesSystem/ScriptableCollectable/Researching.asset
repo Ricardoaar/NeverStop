@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementName: Investigar
   type: 1
-  sprite: {fileID: 6187735329149580186, guid: f8476e53f91b42e40959d1a11eff38e5, type: 3}
+  sprite: {fileID: 3158966911763411693, guid: c6002e0950b76ca45b55673613d9ccf6, type: 3}
   colliderX: 0
   colliderY: 0
   rotation: {x: 0, y: 0, z: 0, w: 0}

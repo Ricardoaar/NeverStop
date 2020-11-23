@@ -16,7 +16,7 @@ public class PlayerStats : MonoBehaviour
     [SerializeField] private float initialEnergy;
     [Range(5, 10)] public float energyPerObj, energyLostPerBadObj;
     [SerializeField, Range(0, 2.0f)] private float energyLostPerSecond;
-    [SerializeField] private float timeBetweenShoot;
+    [SerializeField, Range(1, 10)] private float timeBetweenShoot;
     private float _currentShootTime;
     private bool _canShoot;
 
@@ -45,7 +45,6 @@ public class PlayerStats : MonoBehaviour
     private void FixedUpdate()
     {
         if (GameManager.SingleInstance.GetCurrentGameState() != GameState.InGame) return;
-
         ChangeEnergy(energyLostPerSecond * Time.fixedDeltaTime, false);
         _currentScore += Time.deltaTime * _scoreMultiplier;
         _scoreMultiplier += Time.deltaTime / scoreDivider;
@@ -53,7 +52,7 @@ public class PlayerStats : MonoBehaviour
             GameManager.SingleInstance.GameOver();
     }
 
-//Collectables
+    //Collectables
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer != LayerMask.NameToLayer("Collectable")) return;
@@ -118,5 +117,20 @@ public class PlayerStats : MonoBehaviour
         _canShoot = true;
         InGameGUI.SingleInstace.SwitchSprite(ref InGameGUI.SingleInstace.redButtonImg, InGameGUI.SingleInstace
             .redButton);
+    }
+
+    public float GetShootTime()
+    {
+        return timeBetweenShoot;
+    }
+
+    public float GetCurrentShootTime()
+    {
+        return _currentShootTime;
+    }
+
+    public bool GetLasserState()
+    {
+        return _canShoot;
     }
 }
