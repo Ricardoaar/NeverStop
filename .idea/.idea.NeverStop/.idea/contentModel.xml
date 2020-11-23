@@ -7,6 +7,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_scripts" t="Include">
+          <e p="AudioSystem" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+          </e>
           <e p="Canvas" t="Include">
             <e p="InGameGUI.cs" t="Include" />
           </e>
@@ -30,6 +33,8 @@
             <e p="Util.cs" t="Include" />
           </e>
         </e>
+        <e p="BackgroundAudio.cs" t="Include" />
+        <e p="Pause.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">

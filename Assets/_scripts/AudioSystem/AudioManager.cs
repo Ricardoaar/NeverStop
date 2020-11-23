@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Diagnostics.SymbolStore;
+using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField, Tooltip("AudioSource para la música de fondo")]
     private AudioSource _bgm;
+
     [SerializeField, Tooltip("AudioSource para los efectos de sonidos")]
     private AudioSource _sfx;
 
@@ -26,5 +28,11 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         _sfx.PlayOneShot(clip);
+    }
+
+
+    public bool MusicPlaying()
+    {
+        return _bgm.isPlaying;
     }
 }

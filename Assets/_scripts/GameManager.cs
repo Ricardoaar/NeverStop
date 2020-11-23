@@ -16,8 +16,10 @@ public class GameManager : MonoBehaviour
 
     public static GameManager SingleInstance;
     public List<ScriptableCollectable> collectables = new List<ScriptableCollectable>();
-    public UnityEvent onPause;
     public UnityEvent onGameOver;
+
+
+    public GameObject panelPause;
 
     private void Awake()
     {
@@ -43,5 +45,20 @@ public class GameManager : MonoBehaviour
     {
         ChangeGameState(GameState.GameOver);
         onGameOver.Invoke();
+    }
+
+
+    public void Pause()
+    {
+        if (_currentGameState == GameState.InGame)
+        {
+            ChangeGameState(GameState.MainMenu);
+            panelPause.SetActive(true);
+        }
+        else
+        {
+            ChangeGameState(GameState.InGame);
+            panelPause.SetActive(false);
+        }
     }
 }

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementName: Ejercitarte
   type: 3
-  sprite: {fileID: 21300000, guid: f66ae6298e094324180d5a71744d6af3, type: 3}
+  sprite: {fileID: -7404192272717271821, guid: f8476e53f91b42e40959d1a11eff38e5, type: 3}
   colliderX: 0
   colliderY: 0
   rotation: {x: 0, y: 0, z: 0, w: 0}

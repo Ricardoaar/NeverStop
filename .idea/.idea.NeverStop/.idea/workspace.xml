@@ -11,39 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a46eac7-0878-49de-bb4f-2faefd8a03e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/GameOver@Lost.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/GameOver@Lost.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@Pause.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@Pause.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@PauseDown.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@PauseDown.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@PauseUp.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@PauseUp.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/Text (TMP).controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/Text (TMP).controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/LoadSceneGame.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI_InGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI_InGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Anton SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF - Outline.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Electronic Highway Sign SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Exercising.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Exercising.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Laughing.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Laughing.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Learning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Learning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Reading.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Reading.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Researching.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Researching.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,14 +23,18 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://C:/Program Files/2019.4.8f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@2.1.1/Scripts/Runtime/TMPro_UGUI_Private.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/dd/87114e91/Time.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/b2/8da07789/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/Util/DrawLimits.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/cc/ea613cb4/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/b2/8da07789/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC2876E8-FF0B-42A2-A2A1-1B51F2B23C8A/51/13b7f1d8/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../siesta/Assets/_scripts/Util/DrawLimits.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/LoadSceneGame.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/cc/ea613cb4/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/BackgroundAudio.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,11 +49,14 @@
         <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ObjectPool.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/SpawnArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Pause.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/ImageFill.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/BackgroundAudio.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" />
       </list>
     </option>
@@ -96,6 +71,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35016286" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30021715" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -112,10 +89,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="28016">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="28016" />
       <option name="selectedOptions">
         <set />
       </option>
@@ -136,6 +113,8 @@
       <workItem from="1605940000412" duration="3709000" />
       <workItem from="1605993188436" duration="1143000" />
       <workItem from="1605994349679" duration="9345000" />
+      <workItem from="1606080534250" duration="2440000" />
+      <workItem from="1606095372648" duration="6520000" />
     </task>
     <servers />
   </component>
@@ -161,6 +140,70 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1873" height="389" key="GridCell.Tab.0.bottom" timestamp="1606100307128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307128" />
+    <state width="1873" height="389" key="GridCell.Tab.0.center" timestamp="1606100307128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307128" />
+    <state width="1873" height="389" key="GridCell.Tab.0.left" timestamp="1606100307128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307128" />
+    <state width="1873" height="389" key="GridCell.Tab.0.right" timestamp="1606100307128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307128" />
+    <state width="1873" height="389" key="GridCell.Tab.1.bottom" timestamp="1606100307129">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307129" />
+    <state width="1873" height="389" key="GridCell.Tab.1.center" timestamp="1606100307129">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307129" />
+    <state width="1873" height="389" key="GridCell.Tab.1.left" timestamp="1606100307128">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307128" />
+    <state width="1873" height="389" key="GridCell.Tab.1.right" timestamp="1606100307129">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307129" />
+    <state width="1873" height="389" key="GridCell.Tab.2.bottom" timestamp="1606100307130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307130" />
+    <state width="1873" height="389" key="GridCell.Tab.2.center" timestamp="1606100307129">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307129" />
+    <state width="1873" height="389" key="GridCell.Tab.2.left" timestamp="1606100307129">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307129" />
+    <state width="1873" height="389" key="GridCell.Tab.2.right" timestamp="1606100307130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307130" />
+    <state width="1873" height="389" key="GridCell.Tab.3.bottom" timestamp="1606100307131">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.3.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307131" />
+    <state width="1873" height="389" key="GridCell.Tab.3.center" timestamp="1606100307130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.3.center/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307130" />
+    <state width="1873" height="389" key="GridCell.Tab.3.left" timestamp="1606100307130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.3.left/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307130" />
+    <state width="1873" height="389" key="GridCell.Tab.3.right" timestamp="1606100307130">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1873" height="389" key="GridCell.Tab.3.right/0.0.1920.1080@0.0.1920.1080" timestamp="1606100307130" />
     <state x="715" y="240" key="RiderGenerateDialog" timestamp="1605933457001">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -173,10 +216,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1605911928080" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606011038855">
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606098278439">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606011038855" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606098278439" />
     <state x="616" y="250" key="run.anything.popup" timestamp="1605932566406">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

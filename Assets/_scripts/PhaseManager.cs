@@ -39,7 +39,7 @@ public class PhaseManager : MonoBehaviour
         for (var i = 0; i < randomTimes; i++)
         {
             guiScript.ChangeObj(true);
-
+            yield return new WaitUntil(() => GameManager.SingleInstance.GetCurrentGameState() == GameState.InGame);
             yield return new WaitForSeconds(0.2f);
 
             if (i == 0)
@@ -48,8 +48,6 @@ public class PhaseManager : MonoBehaviour
 
         guiScript.SwitchSprite(ref InGameGUI.SingleInstace.greenButtonImg,
             guiScript.greenButton);
-
-
         //Change UI and final item
         var currentCollectable = Random.Range(0, GameManager.SingleInstance.collectables.Count);
 
