@@ -2,7 +2,8 @@
 
 public class SpawnArea : MonoBehaviour
 {
-    [Tooltip("Tiempo entre cada spawn")] public float timeBetweenSpawn = 5.0f;
+    [Tooltip("Tiempo entre cada spawn")]
+    private static float _timeBetweenSpawn;
 
     [Tooltip("Object Pool encargada de gestionar los Collectables")] [SerializeField]
     private ObjectPool _pool;
@@ -23,8 +24,8 @@ public class SpawnArea : MonoBehaviour
         _timeToSpawn -= Time.deltaTime;
         if (_timeToSpawn <= 0.0f)
         {
+            _timeToSpawn = _timeBetweenSpawn;
             SpawnCollectable();
-            _timeToSpawn = timeBetweenSpawn;
         }
     }
 
@@ -42,5 +43,10 @@ public class SpawnArea : MonoBehaviour
             ),
             1
         );
+    }
+
+    public static void ChangeSpawnTime(float time)
+    {
+        _timeBetweenSpawn = time;
     }
 }
