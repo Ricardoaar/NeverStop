@@ -11,13 +11,13 @@ public class Filler : MonoBehaviour
 
     private void Start()
     {
-        _pointsPFill = 1 / _maxValue;
         fill.fillAmount = 1;
     }
 
     public void SetMaxValue(float value)
     {
         _maxValue = value;
+        _pointsPFill = 1 / value;
     }
 
     public void SetFillValue(float value)

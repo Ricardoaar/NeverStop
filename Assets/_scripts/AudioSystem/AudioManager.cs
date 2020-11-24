@@ -1,5 +1,4 @@
-﻿using System.Diagnostics.SymbolStore;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {

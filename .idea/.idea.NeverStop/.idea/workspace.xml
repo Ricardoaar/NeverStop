@@ -11,46 +11,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a46eac7-0878-49de-bb4f-2faefd8a03e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@EnergyBackground.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGame@EnergyBackground.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGameRight@EnergyShake.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Animations/Canvas/InGameRight@EnergyShake.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Background.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Cerebro dos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Cerebro dos.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/AudioSystem/BackgroundAudio.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/AudioSystem/BackgroundAudio.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/BackgroundColors.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/Filler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/Filler.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/RedLed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/RedLed.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/Shake.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/Shake.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Util/LoadSceneGame.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_scripts/Util/LoadSceneGame.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/ParticleSystem.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/ParticleSystem/ItemParticle.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/ParticleSystem/ItemParticle.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/ParticleSystem/SmokeParticles.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/prefabs/ParticleSystem/SmokeParticles.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AnimCorrection.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/AnimCorrection.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Player.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Rocket@Die.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Rocket@Die.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Rocket@Loop.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Rocket@Loop.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Rocket@Start.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Player/Rocket@Start.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dummies/New Animation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dummies/New Animation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dummies/sprite sheet rocket_6.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Dummies/sprite sheet rocket_6.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerContainer.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlayerContainer.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/Cerebro dos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/Cerebro dos.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/Control.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/Control.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/background_inicial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/background_inicial.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/elements_background (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/elements_background (1).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/humo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/humo.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/omething loot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/GameSprites/omething loot.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Rocket (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/Rocket (1).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/canvas_sightRed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/canvas_sightRed.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/keys (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/keys (1).png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/sight_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/sight_black.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/sight_red_mouse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/UI/sight_red_mouse.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/sprite sheet rocket.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/sprite sheet rocket.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_scripts/FallGameObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_scripts/SpriteGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_scripts/rocket base v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_scripts/rocket base v1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_scripts/rocket base v2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/_scripts/rocket base v2.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/MainMenuGUI.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/MainMenuGUI.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/TemplateBackDec.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/prefabs/TemplateBackDec.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NeverStop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BackgroundAudio.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BackgroundAudio.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pause.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pause.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ParticlesTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ParticlesTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cerebro dos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cerebro dos.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/UI_InGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/UI_InGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rocket (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Rocket (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/background_inicial.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/background_inicial.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/humo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/humo.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/BackgroundColors.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/ColorChanger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/BackgroundColors.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/colorChanger.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/Canvas/Filler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/Filler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/Canvas/RedLed.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/Canvas/RedLed.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Learning.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Learning.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Researching.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/ScriptableCollectable/Researching.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/LoadSceneGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_scripts/LoadSceneGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/KillZone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/KillZone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/PhaseManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/PhaseManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/1_Troposfera.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/1_Troposfera.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/2_Estratosfera.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/2_Estratosfera.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/3_Mesofera.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/3_Mesofera.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/4_Termosfera.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/4_Termosfera.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/5_Exosfera.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/5_Exosfera.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/6_Espacio.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhases/6_Espacio.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/prefabs/Collectables/Collectable.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/prefabs/Collectables/Collectable.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/omething loot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/omething loot.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,13 +115,15 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/dd/87114e91/Time.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/PlayerInput.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/Util/DrawLimits.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_scripts/BackgroundColors.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/26/311e6ba5/Color.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_scripts/ColorChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/cc/ea613cb4/Random.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_scripts/FallGameObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2FEAF16E-8000-4E0C-ADAE-3F2E05F2A3FA/b2/8da07789/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC2876E8-FF0B-42A2-A2A1-1B51F2B23C8A/51/13b7f1d8/AudioSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../siesta/Assets/_scripts/Util/DrawLimits.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_scripts/SpriteGenerator.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -90,18 +141,27 @@
         <option value="$PROJECT_DIR$/Assets/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/ImageFill.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/BackgroundAudio.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/PhaseManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Redled.cs" />
         <option value="$PROJECT_DIR$/Assets/Filler.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" />
         <option value="$PROJECT_DIR$/Assets/RedLed.cs" />
         <option value="$PROJECT_DIR$/Assets/Shake.cs" />
-        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/Shake.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/AudioSystem/AudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/Filler.cs" />
         <option value="$PROJECT_DIR$/Assets/_scripts/BackgroundColors.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/colorChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/ColorChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/PlayerStats.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/FactoryCollectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/Collectable.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/FallGameObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/ScriptablePhase.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/SpriteGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/CollectablesSystem/KillZone.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/Canvas/InGameGUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/_scripts/PhaseSystem/PhaseManager.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +180,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -159,7 +220,7 @@
       <workItem from="1605994349679" duration="9345000" />
       <workItem from="1606080534250" duration="2440000" />
       <workItem from="1606095372648" duration="6520000" />
-      <workItem from="1606149316192" duration="19282000" />
+      <workItem from="1606149316192" duration="33525000" />
     </task>
     <servers />
   </component>
@@ -257,25 +318,25 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="483" y="184" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605942075382" />
-    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog" timestamp="1606170082577">
+    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog" timestamp="1606194222121">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606170082577" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606161768946">
+    <state x="92" y="92" width="1736" height="896" key="VCS.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1606194222121" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1606190893313">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606161768946" />
+    <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1606190893313" />
     <state x="631" y="271" width="657" height="538" key="find.popup" timestamp="1606172442545">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="631" y="271" width="657" height="538" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606172442545" />
-    <state x="616" y="250" key="run.anything.popup" timestamp="1605932566406">
+    <state x="616" y="250" key="run.anything.popup" timestamp="1606179947035">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1605932566406" />
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606169000462">
+    <state x="616" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606179947035" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1606180030994">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606169000462" />
+    <state x="623" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1606180030994" />
   </component>
 </project>

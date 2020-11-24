@@ -13,10 +13,16 @@ MonoBehaviour:
   m_Name: 6_Espacio
   m_EditorClassIdentifier: 
   atmosphereLayer: Espacio
-  atmosphereLayerDescription: WELCOME TO THE SPACE!
+  atmosphereLayerDescription: "\xA1Muy muy lejos!"
   minTimeCollectableChange: 5
   maxTimeCollectableChange: 10
   collectableVelocity: 6
-  timeToSpawn: 0.5
+  timeToSpawn: 0.3
   scoreToChangePhase: 5000
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0.003921569, g: 0.02745098, b: 0.06666667, a: 0}
+  transitionTime: 4
+  phaseDecElements:
+  - {fileID: 5939636432666057882, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
+  - {fileID: -1449628381070499058, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
+  - {fileID: -2346688378405475934, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
+  - {fileID: -3077180420321233823, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}

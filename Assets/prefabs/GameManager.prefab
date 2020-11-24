@@ -109,8 +109,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 13cb428e9cde9694bb12656fec29da14, type: 2}
   - {fileID: 11400000, guid: e74709ac1ea20c64e9afca5ae312cb13, type: 2}
   _currentPhase: 0
-  minTimeBetweenCollectable: 0
-  maxTimeBetweenCollectable: 0
+  colorChanger: {fileID: 0}
+  _atmosphereLayer: 
 --- !u!114 &1311735618475058678
 MonoBehaviour:
   m_ObjectHideFlags: 0
