@@ -25,11 +25,8 @@ public class DisplayHighScores : MonoBehaviour
         StartCoroutine("RefreshHighScores");
     }
 
-    public void OnHighScoresDownloades(List<Score> listScores)
+    public void OnHighScoresDownloaded(List<Score> listScores)
     {
-        //Ordenar la lista por puntaje
-        listScores.OrderBy(x => x.Value);
-        
         int i = 0;
         foreach (Text scoreField in highScoreFields)
         {
