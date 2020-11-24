@@ -9,9 +9,14 @@
         <e p="_scripts" t="Include">
           <e p="AudioSystem" t="Include">
             <e p="AudioManager.cs" t="Include" />
+            <e p="BackgroundAudio.cs" t="Include" />
           </e>
+          <e p="BackgroundColors.cs" t="Include" />
           <e p="Canvas" t="Include">
+            <e p="Filler.cs" t="Include" />
             <e p="InGameGUI.cs" t="Include" />
+            <e p="Redled.cs" t="Include" />
+            <e p="Shake.cs" t="Include" />
           </e>
           <e p="CollectablesSystem" t="Include">
             <e p="Collectable.cs" t="Include" />
@@ -22,19 +27,17 @@
             <e p="SpawnArea.cs" t="Include" />
           </e>
           <e p="GameManager.cs" t="Include" />
-          <e p="LoadSceneGame.cs" t="Include" />
           <e p="PhaseManager.cs" t="Include" />
           <e p="PlayerInput.cs" t="Include" />
           <e p="PlayerStats.cs" t="Include" />
           <e p="Util" t="Include">
             <e p="DrawLimits.cs" t="Include" />
             <e p="HowToUse.cs" t="Include" />
+            <e p="LoadSceneGame.cs" t="Include" />
             <e p="SoundTrigger.cs" t="Include" />
             <e p="Util.cs" t="Include" />
           </e>
         </e>
-        <e p="BackgroundAudio.cs" t="Include" />
-        <e p="Pause.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Examples &amp; Extras" t="Include">
             <e p="Fonts" t="Include">
