@@ -9,7 +9,7 @@ public class Game : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            HighScoreManager.AddNewHighscore("Pedro", 51);
+            HighScoreManager.AddNewHighScore("Marta", 193.2f);
             Debug.Log("Listo");
         }
     }
