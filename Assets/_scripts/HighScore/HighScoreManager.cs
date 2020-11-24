@@ -19,13 +19,15 @@ public class HighScoreManager : MonoBehaviour
         _displayHighScores = GetComponent<DisplayHighScores>();
         _instance = this;
     }
-    
+
     // Añadir nuevo Score
-    public static void AddNewHighScore(string username, float score) {
-        _instance.StartCoroutine(_instance.AddScoreCoroutine(username,score));
+    public static void AddNewHighScore(string username, float score)
+    {
+        _instance.StartCoroutine(_instance.AddScoreCoroutine(username, score));
     }
-    
-    IEnumerator AddScoreCoroutine(string userName, float score) {
+
+    IEnumerator AddScoreCoroutine(string userName, float score)
+    {
         WWW webRequest = new WWW(
             $"{_webURL}{_privateCode}/pipe-get/{WWW.EscapeURL(userName)}");
         yield return webRequest;
@@ -49,29 +51,25 @@ public class HighScoreManager : MonoBehaviour
                 StartCoroutine(AddNewUserName(userName, score));
         }
     }
-    
+
     //Corutina para agregar un nuevo userName
     IEnumerator AddNewUserName(string userName, double score)
     {
         WWW webRequest = new WWW(
             $"{_webURL}{_privateCode}/add/{WWW.EscapeURL(userName)}/{score}");
         yield return webRequest;
-        
-        if (string.IsNullOrEmpty(webRequest.error)) {
-            print ($"{userName} upload successful");
+
+        if (string.IsNullOrEmpty(webRequest.error))
+        {
+            print($"{userName} upload successful");
             ReadScore();
         }
         else
-            print ("Error uploading: " + webRequest.error);
+            print("Error uploading: " + webRequest.error);
     }
-    
+
     //Corutina para eliminar un userName
-<<<<<<< HEAD
     IEnumerator DeleteUserNameCoroutine(string userName)
-=======
-    /*
-    IEnumerator deleteUserNameCoroutine(string userName)
->>>>>>> c29136b0733d1f8d87364bb6c61287c19c4e54d2
     {
         WWW webRequest = new WWW($"{_webURL}{_privateCode}/delete/");
         yield return webRequest;
@@ -86,9 +84,8 @@ public class HighScoreManager : MonoBehaviour
             Debug.LogError($"Error deleting: {webRequest.error}");
         }
     }
-    */
-    
-    
+
+
     //Leer los scores almacenados en el programa.
     public void ReadScore()
     {
