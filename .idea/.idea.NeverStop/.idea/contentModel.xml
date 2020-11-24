@@ -28,6 +28,12 @@
           <e p="colorChanger.cs" t="Include" />
           <e p="FallGameObject.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
+          <e p="HighScore" t="Include">
+            <e p="DisplayHighScores.cs" t="Include" />
+            <e p="Game.cs" t="Include" />
+            <e p="HighScoreManager.cs" t="Include" />
+            <e p="Score.cs" t="Include" />
+          </e>
           <e p="PhaseSystem" t="Include">
             <e p="PhaseManager.cs" t="Include" />
             <e p="ScriptablePhase.cs" t="Include" />
