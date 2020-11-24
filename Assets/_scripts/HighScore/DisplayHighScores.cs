@@ -20,6 +20,8 @@ public class DisplayHighScores : MonoBehaviour
         }
 
         _scoreManager = GetComponent<HighScoreManager>();
+        
+        // Refresca el puntaje cada 30 segundos
         StartCoroutine("RefreshHighScores");
     }
 

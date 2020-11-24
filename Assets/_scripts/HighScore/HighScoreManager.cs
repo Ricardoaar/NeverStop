@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Networking;
 
@@ -25,17 +26,45 @@ public class HighScoreManager : MonoBehaviour
     }
     
     IEnumerator AddScoreCoroutine(string username, int score) {
-        WWW www = new WWW(_webURL + _privateCode + "/add/" + WWW.EscapeURL(username) + "/" + score);
-        yield return www;
+        WWW webRequest;
+        
+        // Primero revisar si el username ya existe.
+        webRequest = new WWW($"{_webURL}{_privateCode}/pipe-get/{WWW.EscapeURL(username)}");
+        yield return webRequest;
 
-        if (string.IsNullOrEmpty(www.error)) {
-            print ("Upload Successful");
-            ReadScore();
+        if (string.IsNullOrEmpty(webRequest.error))
+        {
+            if (!string.IsNullOrEmpty(webRequest.text))
+            {
+                FormatHighScores(webRequest.text);
+                Score selectScore = _listScore.FirstOrDefault(x => x.UserName.Equals(username));
+                if (score > selectScore.Value)
+                {
+                    //Debe eliminar el userName actual.
+                }
+            }
         }
-        else {
-            print ("Error uploading: " + www.error);
-        }
+
+
+
+        // WWW www = new WWW(_webURL + _privateCode + "/add/" + WWW.EscapeURL(username) + "/" + score);
+        // yield return www;
+        //
+        // if (string.IsNullOrEmpty(www.error)) {
+        //     print ("Upload Successful");
+        //     ReadScore();
+        // }
+        // else {
+        //     print ("Error uploading: " + www.error);
+        // }
     }
+    
+    //Corutina para eliminar un userName
+    IEnumerator deleteUserNameCoroutine(string userName)
+    {
+        WWW webRequest = new WWW($"{_webURL}{_privateCode}/delete/");
+    }
+    
     
     //Leer los scores almacenados en el programa.
     public void ReadScore()
