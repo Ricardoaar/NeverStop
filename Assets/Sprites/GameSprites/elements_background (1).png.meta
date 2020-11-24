@@ -1,0 +1,1808 @@
+fileFormatVersion: 2
+guid: d5e3486a0994e994f97a39f07ff6c086
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 576388768531019314
+    second: elements_background (1)_0
+  - first:
+      213: -12905773852191703
+    second: elements_background (1)_1
+  - first:
+      213: -2202434681354844428
+    second: elements_background (1)_2
+  - first:
+      213: -9099963588651882849
+    second: elements_background (1)_3
+  - first:
+      213: 3925514955623741397
+    second: elements_background (1)_4
+  - first:
+      213: 229351697062056789
+    second: elements_background (1)_5
+  - first:
+      213: 2262237853367971493
+    second: elements_background (1)_6
+  - first:
+      213: -4510405598814605114
+    second: elements_background (1)_7
+  - first:
+      213: -885689887391495909
+    second: elements_background (1)_8
+  - first:
+      213: -2334026880936808632
+    second: elements_background (1)_9
+  - first:
+      213: -6129869093079501143
+    second: elements_background (1)_10
+  - first:
+      213: 1800517913291119141
+    second: elements_background (1)_11
+  - first:
+      213: -2346688378405475934
+    second: elements_background (1)_12
+  - first:
+      213: -1449628381070499058
+    second: elements_background (1)_13
+  - first:
+      213: 2732589466617046387
+    second: elements_background (1)_14
+  - first:
+      213: 2863900993551834434
+    second: elements_background (1)_15
+  - first:
+      213: 3366427336767055516
+    second: elements_background (1)_16
+  - first:
+      213: -2999002998123940087
+    second: elements_background (1)_17
+  - first:
+      213: -3077180420321233823
+    second: elements_background (1)_18
+  - first:
+      213: 5939636432666057882
+    second: elements_background (1)_19
+  - first:
+      213: -3160490467729771455
+    second: elements_background (1)_20
+  - first:
+      213: -6169747308442108862
+    second: elements_background (1)_21
+  - first:
+      213: 4083498524511750031
+    second: elements_background (1)_22
+  - first:
+      213: -3597140766823640178
+    second: elements_background (1)_23
+  - first:
+      213: 7006140634413409621
+    second: elements_background (1)_24
+  - first:
+      213: -1807483482785944933
+    second: elements_background (1)_25
+  - first:
+      213: 3727476650551279723
+    second: elements_background (1)_26
+  - first:
+      213: -8689689927776749518
+    second: elements_background (1)_27
+  - first:
+      213: 434719802755405180
+    second: elements_background (1)_28
+  - first:
+      213: 8050676020966907986
+    second: elements_background (1)_29
+  - first:
+      213: 5947125964809973048
+    second: elements_background (1)_30
+  - first:
+      213: 761530758476191073
+    second: elements_background (1)_31
+  - first:
+      213: 7372501410231836365
+    second: elements_background (1)_32
+  - first:
+      213: 880818719495423284
+    second: elements_background (1)_33
+  - first:
+      213: 2227293903861441414
+    second: elements_background (1)_34
+  - first:
+      213: -6705362583837680142
+    second: elements_background (1)_35
+  - first:
+      213: 2905443180396757352
+    second: elements_background (1)_36
+  - first:
+      213: 1841706449275534851
+    second: elements_background (1)_37
+  - first:
+      213: 6598510255273245408
+    second: elements_background (1)_38
+  - first:
+      213: -3815162799807208438
+    second: elements_background (1)_39
+  - first:
+      213: -3293918330301607973
+    second: elements_background (1)_40
+  - first:
+      213: -119455656479086266
+    second: elements_background (1)_41
+  - first:
+      213: 1661780551073710677
+    second: elements_background (1)_42
+  - first:
+      213: 6856207259819032310
+    second: elements_background (1)_43
+  - first:
+      213: 5980780366959121920
+    second: elements_background (1)_44
+  - first:
+      213: -7823281496403538700
+    second: elements_background (1)_45
+  - first:
+      213: 4405317077851225769
+    second: elements_background (1)_46
+  - first:
+      213: 4629475428854303088
+    second: elements_background (1)_47
+  - first:
+      213: -2911315611117257560
+    second: elements_background (1)_48
+  - first:
+      213: 9202284858348971054
+    second: elements_background (1)_49
+  - first:
+      213: -4093622131927760401
+    second: elements_background (1)_50
+  - first:
+      213: 209461333009436439
+    second: elements_background (1)_51
+  - first:
+      213: 6860242806391731373
+    second: elements_background (1)_52
+  - first:
+      213: 3857527652861672296
+    second: elements_background (1)_53
+  - first:
+      213: -3660409430177517181
+    second: elements_background (1)_54
+  - first:
+      213: -7352608413415290311
+    second: elements_background (1)_55
+  - first:
+      213: 4418606627840364199
+    second: elements_background (1)_56
+  - first:
+      213: 1952415407900412976
+    second: elements_background (1)_57
+  - first:
+      213: -8120389110628625429
+    second: elements_background (1)_58
+  - first:
+      213: -6659191339898423363
+    second: elements_background (1)_59
+  - first:
+      213: -6472255809510779117
+    second: elements_background (1)_60
+  - first:
+      213: -6549097359271866503
+    second: elements_background (1)_61
+  - first:
+      213: -9009291709043165107
+    second: elements_background (1)_62
+  - first:
+      213: 729438450944643313
+    second: elements_background (1)_63
+  - first:
+      213: 6033428140193455395
+    second: elements_background (1)_64
+  - first:
+      213: 3221753310097335961
+    second: elements_background (1)_65
+  - first:
+      213: -4431701073045392567
+    second: elements_background (1)_66
+  - first:
+      213: -7721818219895531038
+    second: elements_background (1)_67
+  - first:
+      213: -1258276292498560265
+    second: elements_background (1)_68
+  - first:
+      213: 6061897667755975900
+    second: elements_background (1)_69
+  - first:
+      213: 5948770314214558644
+    second: elements_background (1)_70
+  - first:
+      213: 2093324042548602601
+    second: elements_background (1)_71
+  - first:
+      213: -7596055154254293842
+    second: elements_background (1)_72
+  - first:
+      213: -3444559188628550951
+    second: elements_background (1)_73
+  - first:
+      213: 7530679198888308689
+    second: elements_background (1)_74
+  - first:
+      213: -2186066930474725485
+    second: elements_background (1)_75
+  - first:
+      213: 6706297420226879601
+    second: elements_background (1)_76
+  - first:
+      213: -1639381115203895214
+    second: elements_background (1)_77
+  - first:
+      213: -2514370198437984475
+    second: elements_background (1)_78
+  - first:
+      213: -8343631452536504138
+    second: elements_background (1)_79
+  - first:
+      213: -68259012094812416
+    second: elements_background (1)_80
+  - first:
+      213: -6949384522128082020
+    second: elements_background (1)_81
+  - first:
+      213: 2405376216867087537
+    second: elements_background (1)_82
+  - first:
+      213: -2178503539850874100
+    second: elements_background (1)_83
+  - first:
+      213: 3839580115727637406
+    second: elements_background (1)_84
+  - first:
+      213: 4883552908641496868
+    second: elements_background (1)_85
+  - first:
+      213: -5115220601093778089
+    second: elements_background (1)_86
+  - first:
+      213: -2595506099104960698
+    second: elements_background (1)_87
+  - first:
+      213: 805187778264948005
+    second: elements_background (1)_88
+  - first:
+      213: 1667834880562266074
+    second: elements_background (1)_89
+  - first:
+      213: 5742259417892520337
+    second: elements_background (1)_90
+  - first:
+      213: -424765812534526781
+    second: elements_background (1)_91
+  - first:
+      213: 5513524815701501467
+    second: elements_background (1)_92
+  - first:
+      213: 7406971020454430681
+    second: elements_background (1)_93
+  - first:
+      213: -2436564944360086968
+    second: elements_background (1)_94
+  - first:
+      213: 7435529579052170701
+    second: elements_background (1)_95
+  - first:
+      213: 3822236010387689429
+    second: elements_background (1)_96
+  - first:
+      213: 2692180785432982106
+    second: elements_background (1)_97
+  - first:
+      213: 5138906130809534787
+    second: elements_background (1)_98
+  - first:
+      213: -5059184141747254625
+    second: elements_background (1)_99
+  - first:
+      213: -3795937472123377957
+    second: elements_background (1)_100
+  - first:
+      213: -2226962385446210403
+    second: elements_background (1)_101
+  - first:
+      213: -5945874178537171217
+    second: elements_background (1)_102
+  - first:
+      213: -8010319090345426547
+    second: elements_background (1)_103
+  - first:
+      213: 8344775833080318918
+    second: elements_background (1)_104
+  - first:
+      213: -3774571864776875905
+    second: elements_background (1)_105
+  - first:
+      213: -6804526083518112039
+    second: elements_background (1)_106
+  - first:
+      213: -6837058427620122253
+    second: elements_background (1)_107
+  - first:
+      213: 8396690645526926887
+    second: elements_background (1)_108
+  - first:
+      213: -5499351560566499054
+    second: elements_background (1)_109
+  - first:
+      213: 7508875740143872335
+    second: elements_background (1)_110
+  - first:
+      213: -6763100172178858596
+    second: elements_background (1)_111
+  - first:
+      213: 4630835235238309230
+    second: elements_background (1)_112
+  - first:
+      213: -1045178715602569431
+    second: elements_background (1)_113
+  - first:
+      213: -6383412222852837949
+    second: elements_background (1)_114
+  - first:
+      213: -6628433991047053894
+    second: elements_background (1)_115
+  - first:
+      213: -4599099103114986999
+    second: elements_background (1)_116
+  - first:
+      213: 8519170652826616229
+    second: elements_background (1)_117
+  - first:
+      213: -1075260112242146274
+    second: elements_background (1)_118
+  - first:
+      213: 8178072968558222033
+    second: elements_background (1)_119
+  - first:
+      213: 8047916690824242926
+    second: elements_background (1)_120
+  - first:
+      213: 8895903063550690846
+    second: elements_background (1)_121
+  - first:
+      213: -6335202953339341520
+    second: elements_background (1)_122
+  - first:
+      213: 9088857582453530395
+    second: elements_background (1)_123
+  - first:
+      213: -2260724952473732640
+    second: elements_background (1)_124
+  - first:
+      213: -8270443643326916634
+    second: elements_background (1)_125
+  - first:
+      213: -838168597424010841
+    second: elements_background (1)_126
+  - first:
+      213: -2866614836236605821
+    second: elements_background (1)_127
+  - first:
+      213: 8217773766985907747
+    second: elements_background (1)_128
+  - first:
+      213: 4298199661737179593
+    second: elements_background (1)_129
+  - first:
+      213: 3252346193156851121
+    second: elements_background (1)_130
+  - first:
+      213: -9196113448038836850
+    second: elements_background (1)_131
+  - first:
+      213: 6242497643489003783
+    second: elements_background (1)_132
+  - first:
+      213: 4022269152060649609
+    second: elements_background (1)_133
+  - first:
+      213: 7046380903914982095
+    second: elements_background (1)_134
+  - first:
+      213: -6258800051982628920
+    second: elements_background (1)_135
+  - first:
+      213: -6854916041888887066
+    second: elements_background (1)_136
+  - first:
+      213: -1086480210137020004
+    second: elements_background (1)_137
+  - first:
+      213: -2152449122587564435
+    second: elements_background (1)_138
+  - first:
+      213: -7431261770360956423
+    second: elements_background (1)_139
+  - first:
+      213: -3270558067138709011
+    second: elements_background (1)_140
+  - first:
+      213: -218855761278527902
+    second: elements_background (1)_141
+  - first:
+      213: -8269506852302113385
+    second: elements_background (1)_142
+  - first:
+      213: 5180885586333608713
+    second: elements_background (1)_143
+  - first:
+      213: -7999329975609497431
+    second: elements_background (1)_144
+  - first:
+      213: -8255791467783765211
+    second: elements_background (1)_145
+  - first:
+      213: 4390292146120172365
+    second: elements_background (1)_146
+  - first:
+      213: 3086846336664776074
+    second: elements_background (1)_147
+  - first:
+      213: -3663506354498788508
+    second: elements_background (1)_148
+  - first:
+      213: 7756908320377292461
+    second: elements_background (1)_149
+  - first:
+      213: 8370707033872395943
+    second: elements_background (1)_150
+  - first:
+      213: 2762431409376084576
+    second: elements_background (1)_151
+  - first:
+      213: 7902369958015097456
+    second: elements_background (1)_152
+  - first:
+      213: -3791104049643927116
+    second: elements_background (1)_153
+  - first:
+      213: 4895277387641936227
+    second: elements_background (1)_154
+  - first:
+      213: 496912236588388774
+    second: elements_background (1)_155
+  - first:
+      213: -8686307684619144869
+    second: elements_background (1)_156
+  - first:
+      213: 2638716311987637881
+    second: elements_background (1)_157
+  - first:
+      213: 4389616570767239825
+    second: elements_background (1)_158
+  - first:
+      213: -6061956188563578595
+    second: elements_background (1)_159
+  - first:
+      213: 8892780543870444150
+    second: elements_background (1)_160
+  - first:
+      213: -8024284302652315338
+    second: elements_background (1)_161
+  - first:
+      213: -7242136589837602335
+    second: elements_background (1)_162
+  - first:
+      213: 4051195402462800143
+    second: elements_background (1)_163
+  - first:
+      213: -1845018749194193534
+    second: elements_background (1)_164
+  - first:
+      213: 6357212432191143620
+    second: elements_background (1)_165
+  - first:
+      213: 3521250488605287067
+    second: elements_background (1)_166
+  - first:
+      213: 7088262884653169872
+    second: elements_background (1)_167
+  - first:
+      213: 4181904580780437405
+    second: elements_background (1)_168
+  - first:
+      213: 2998069397241339775
+    second: elements_background (1)_169
+  - first:
+      213: 4448131520756223846
+    second: elements_background (1)_170
+  - first:
+      213: 4693062703258264804
+    second: elements_background (1)_171
+  - first:
+      213: 8176885004158225327
+    second: elements_background (1)_172
+  - first:
+      213: 2139929053056656806
+    second: elements_background (1)_173
+  - first:
+      213: 7806862091225173830
+    second: elements_background (1)_174
+  - first:
+      213: -9139251280533113583
+    second: elements_background (1)_175
+  - first:
+      213: 4199833818987349849
+    second: elements_background (1)_176
+  - first:
+      213: 2385785580319195220
+    second: elements_background (1)_177
+  - first:
+      213: 2856280252035275150
+    second: elements_background (1)_178
+  - first:
+      213: -6390676323761486190
+    second: elements_background (1)_179
+  - first:
+      213: -7979656861645215392
+    second: elements_background (1)_180
+  - first:
+      213: 4753847122146260541
+    second: elements_background (1)_181
+  - first:
+      213: -6279429952875683418
+    second: elements_background (1)_182
+  - first:
+      213: 4658658656687661114
+    second: elements_background (1)_183
+  - first:
+      213: 2554599148532047258
+    second: elements_background (1)_184
+  - first:
+      213: 3883765420497700233
+    second: elements_background (1)_185
+  - first:
+      213: -7901201888264455732
+    second: elements_background (1)_186
+  - first:
+      213: -2570058548096988318
+    second: elements_background (1)_187
+  - first:
+      213: 4153379892736054276
+    second: elements_background (1)_188
+  - first:
+      213: 8296395461235989858
+    second: elements_background (1)_189
+  - first:
+      213: 7519623318414581573
+    second: elements_background (1)_190
+  - first:
+      213: -925214043438169516
+    second: elements_background (1)_191
+  - first:
+      213: -4701857178371483967
+    second: elements_background (1)_192
+  - first:
+      213: -2230073822718795965
+    second: elements_background (1)_193
+  - first:
+      213: 8276982531240086273
+    second: elements_background (1)_194
+  - first:
+      213: 4529948438667467309
+    second: elements_background (1)_195
+  - first:
+      213: 7161317540747122544
+    second: elements_background (1)_196
+  - first:
+      213: -3049508522921117660
+    second: elements_background (1)_197
+  - first:
+      213: 5050166944469607877
+    second: elements_background (1)_198
+  - first:
+      213: 5590842664077290205
+    second: elements_background (1)_199
+  - first:
+      213: 3507080424875895497
+    second: elements_background (1)_200
+  - first:
+      213: 5244891822890814561
+    second: elements_background (1)_201
+  - first:
+      213: -3205128593684220900
+    second: elements_background (1)_202
+  - first:
+      213: 8450720699664212507
+    second: elements_background (1)_203
+  - first:
+      213: 1827842485701393025
+    second: elements_background (1)_204
+  - first:
+      213: 7310502959750032878
+    second: elements_background (1)_205
+  - first:
+      213: 3723602185110952876
+    second: elements_background (1)_206
+  - first:
+      213: 7826012341679282045
+    second: elements_background (1)_207
+  - first:
+      213: 6102881646746348658
+    second: elements_background (1)_208
+  - first:
+      213: 5170424403638111588
+    second: elements_background (1)_209
+  - first:
+      213: -5136348148461037524
+    second: elements_background (1)_210
+  - first:
+      213: -3151686535590370276
+    second: elements_background (1)_211
+  - first:
+      213: 3605917298109135501
+    second: elements_background (1)_212
+  - first:
+      213: 8411071483269393411
+    second: elements_background (1)_213
+  - first:
+      213: 7558857039425010431
+    second: elements_background (1)_214
+  - first:
+      213: -5402693544427583134
+    second: elements_background (1)_215
+  - first:
+      213: 3730375928705989937
+    second: elements_background (1)_216
+  - first:
+      213: 1876967162004553012
+    second: elements_background (1)_217
+  - first:
+      213: -6376967640829490969
+    second: elements_background (1)_218
+  - first:
+      213: 5204827708169366070
+    second: elements_background (1)_219
+  - first:
+      213: -2702683476915518924
+    second: elements_background (1)_220
+  - first:
+      213: -1836967217801943549
+    second: elements_background (1)_221
+  - first:
+      213: -6544926256009576727
+    second: elements_background (1)_222
+  - first:
+      213: 3551293967560822604
+    second: elements_background (1)_223
+  - first:
+      213: -2549547451948758773
+    second: elements_background (1)_224
+  - first:
+      213: 4910379489032540253
+    second: elements_background (1)_225
+  - first:
+      213: 9028277526453781899
+    second: elements_background (1)_226
+  - first:
+      213: -7829143596595433495
+    second: elements_background (1)_227
+  - first:
+      213: 3735569661957048604
+    second: elements_background (1)_228
+  - first:
+      213: -5170940627949412426
+    second: elements_background (1)_229
+  - first:
+      213: -7563517896604292700
+    second: elements_background (1)_230
+  - first:
+      213: 4615108541628924907
+    second: elements_background (1)_231
+  - first:
+      213: 1856851762909078135
+    second: elements_background (1)_232
+  - first:
+      213: -8103197025769935589
+    second: elements_background (1)_233
+  - first:
+      213: -5440866322669889311
+    second: elements_background (1)_234
+  - first:
+      213: -5717715298115428528
+    second: elements_background (1)_235
+  - first:
+      213: -1209113971733283918
+    second: elements_background (1)_236
+  - first:
+      213: -8368847916351951124
+    second: elements_background (1)_237
+  - first:
+      213: 618918667310733463
+    second: elements_background (1)_238
+  - first:
+      213: -2266827977106849052
+    second: elements_background (1)_239
+  - first:
+      213: 6590434135674002686
+    second: elements_background (1)_240
+  - first:
+      213: 8607455380783350422
+    second: elements_background (1)_241
+  - first:
+      213: -2374129754699222587
+    second: elements_background (1)_242
+  - first:
+      213: -8940930262334707241
+    second: elements_background (1)_243
+  - first:
+      213: -640299140473466753
+    second: elements_background (1)_244
+  - first:
+      213: 3647028563515949779
+    second: elements_background (1)_245
+  - first:
+      213: 9195614277157257620
+    second: elements_background (1)_246
+  - first:
+      213: -7254687706262002868
+    second: elements_background (1)_247
+  - first:
+      213: 412414254394472386
+    second: elements_background (1)_248
+  - first:
+      213: 909899267553227175
+    second: elements_background (1)_249
+  - first:
+      213: 7139186454720123802
+    second: elements_background (1)_250
+  - first:
+      213: -648166525109650097
+    second: elements_background (1)_251
+  - first:
+      213: -2432548138356368019
+    second: elements_background (1)_252
+  - first:
+      213: -2390027708536022979
+    second: elements_background (1)_253
+  - first:
+      213: -1371459475976100147
+    second: elements_background (1)_254
+  - first:
+      213: 540018028078280269
+    second: elements_background (1)_255
+  - first:
+      213: -5725091599646089023
+    second: elements_background (1)_256
+  - first:
+      213: -8182711139120802400
+    second: elements_background (1)_257
+  - first:
+      213: 3792634157554274604
+    second: elements_background (1)_258
+  - first:
+      213: 6429731736833320298
+    second: elements_background (1)_259
+  - first:
+      213: -139406475610320385
+    second: elements_background (1)_260
+  - first:
+      213: -3332315558644711935
+    second: elements_background (1)_261
+  - first:
+      213: -3876361466249850603
+    second: elements_background (1)_262
+  - first:
+      213: 5145047949584404058
+    second: elements_background (1)_263
+  - first:
+      213: 5999058230799041115
+    second: elements_background (1)_264
+  - first:
+      213: 8275710905117571334
+    second: elements_background (1)_265
+  - first:
+      213: -4004820625228742215
+    second: elements_background (1)_266
+  - first:
+      213: -6300002754521079270
+    second: elements_background (1)_267
+  - first:
+      213: -2993845072134713177
+    second: elements_background (1)_268
+  - first:
+      213: -102294112392022767
+    second: elements_background (1)_269
+  - first:
+      213: -2885405021577940805
+    second: elements_background (1)_270
+  - first:
+      213: -5407900681639355691
+    second: elements_background (1)_271
+  - first:
+      213: 3923464992861962520
+    second: elements_background (1)_272
+  - first:
+      213: 4854739938587404767
+    second: elements_background (1)_273
+  - first:
+      213: 4847171472522365386
+    second: elements_background (1)_274
+  - first:
+      213: -1757082934769839688
+    second: elements_background (1)_275
+  - first:
+      213: 1942268510310018179
+    second: elements_background (1)_276
+  - first:
+      213: 1816278709658433502
+    second: elements_background (1)_277
+  - first:
+      213: -4124925355348068578
+    second: elements_background (1)_278
+  - first:
+      213: -7330350027540050959
+    second: elements_background (1)_279
+  - first:
+      213: -7117932967831293659
+    second: elements_background (1)_280
+  - first:
+      213: 6720372431571840856
+    second: elements_background (1)_281
+  - first:
+      213: 4305116747831361205
+    second: elements_background (1)_282
+  - first:
+      213: -2345956723336587384
+    second: elements_background (1)_283
+  - first:
+      213: -1604237580446144262
+    second: elements_background (1)_284
+  - first:
+      213: 5116265667332145447
+    second: elements_background (1)_285
+  - first:
+      213: 3658078995275331106
+    second: elements_background (1)_286
+  - first:
+      213: -3288632662594484051
+    second: elements_background (1)_287
+  - first:
+      213: 1306233935544072449
+    second: elements_background (1)_288
+  - first:
+      213: -1615391370612433494
+    second: elements_background (1)_289
+  - first:
+      213: 1528657728833407720
+    second: elements_background (1)_290
+  - first:
+      213: -5742522494588329359
+    second: elements_background (1)_291
+  - first:
+      213: 6522058025483989039
+    second: elements_background (1)_292
+  - first:
+      213: 5417265072792604594
+    second: elements_background (1)_293
+  - first:
+      213: 1545497021209640584
+    second: elements_background (1)_294
+  - first:
+      213: -7170440685532564653
+    second: elements_background (1)_295
+  - first:
+      213: 5895955086427231443
+    second: elements_background (1)_296
+  - first:
+      213: -5368759183266524604
+    second: elements_background (1)_297
+  - first:
+      213: -3590629393807638336
+    second: elements_background (1)_298
+  - first:
+      213: 4024514808424227038
+    second: elements_background (1)_299
+  - first:
+      213: -4356995726955223927
+    second: elements_background (1)_300
+  - first:
+      213: -927163513589624100
+    second: elements_background (1)_301
+  - first:
+      213: 3888392300069985734
+    second: elements_background (1)_302
+  - first:
+      213: 713814400428707360
+    second: elements_background (1)_303
+  - first:
+      213: -2712214560592445458
+    second: elements_background (1)_304
+  - first:
+      213: 8617235158999326066
+    second: elements_background (1)_305
+  - first:
+      213: 8733209504290944421
+    second: elements_background (1)_306
+  - first:
+      213: 6839987940968186113
+    second: elements_background (1)_307
+  - first:
+      213: -6122148508894926333
+    second: elements_background (1)_308
+  - first:
+      213: -7395522091387637904
+    second: elements_background (1)_309
+  - first:
+      213: 2385281250183984018
+    second: elements_background (1)_310
+  - first:
+      213: -3270968786168158584
+    second: elements_background (1)_311
+  - first:
+      213: -6375544126079554081
+    second: elements_background (1)_312
+  - first:
+      213: 5200840169385907381
+    second: elements_background (1)_313
+  - first:
+      213: -6966238951215079561
+    second: elements_background (1)_314
+  - first:
+      213: -6366285901209532228
+    second: elements_background (1)_315
+  - first:
+      213: 7648583012247752807
+    second: elements_background (1)_316
+  - first:
+      213: 4731923789755558270
+    second: elements_background (1)_317
+  - first:
+      213: 6501684120321950569
+    second: elements_background (1)_318
+  - first:
+      213: 4454694909023940131
+    second: elements_background (1)_319
+  - first:
+      213: 1816105135905506230
+    second: elements_background (1)_320
+  - first:
+      213: 6877552613492804685
+    second: elements_background (1)_321
+  - first:
+      213: 454858293424252359
+    second: elements_background (1)_322
+  - first:
+      213: -7901655173138564093
+    second: elements_background (1)_323
+  - first:
+      213: 7645747749281742608
+    second: elements_background (1)_324
+  - first:
+      213: 8349783995763615073
+    second: elements_background (1)_325
+  - first:
+      213: 7201373029219584967
+    second: elements_background (1)_326
+  - first:
+      213: -9095218629677935521
+    second: elements_background (1)_327
+  - first:
+      213: -567629984935099189
+    second: elements_background (1)_328
+  - first:
+      213: 5790789132237481434
+    second: elements_background (1)_329
+  - first:
+      213: 1994563137218684244
+    second: elements_background (1)_330
+  - first:
+      213: -3168357942011879047
+    second: elements_background (1)_331
+  - first:
+      213: -3928084601824176562
+    second: elements_background (1)_332
+  - first:
+      213: 3615297668685340445
+    second: elements_background (1)_333
+  - first:
+      213: 2960433305270695777
+    second: elements_background (1)_334
+  - first:
+      213: -2463593397685263220
+    second: elements_background (1)_335
+  - first:
+      213: -6151732518867248804
+    second: elements_background (1)_336
+  - first:
+      213: 4194079031720929523
+    second: elements_background (1)_337
+  - first:
+      213: 6795993969840519877
+    second: elements_background (1)_338
+  - first:
+      213: 3257818705569201425
+    second: elements_background (1)_339
+  - first:
+      213: -6049928085722424386
+    second: elements_background (1)_340
+  - first:
+      213: 5272373654448916328
+    second: elements_background (1)_341
+  - first:
+      213: -8067753521981603451
+    second: elements_background (1)_342
+  - first:
+      213: 351562110068336822
+    second: elements_background (1)_343
+  - first:
+      213: 1432064805134312467
+    second: elements_background (1)_344
+  - first:
+      213: 4161125243966012367
+    second: elements_background (1)_345
+  - first:
+      213: -744232751659526265
+    second: elements_background (1)_346
+  - first:
+      213: 1232418921649053970
+    second: elements_background (1)_347
+  - first:
+      213: -1792032962926775267
+    second: elements_background (1)_348
+  - first:
+      213: -6719726033557382462
+    second: elements_background (1)_349
+  - first:
+      213: -2886030189988423595
+    second: elements_background (1)_350
+  - first:
+      213: 3730090108081117334
+    second: elements_background (1)_351
+  - first:
+      213: -3705903736576369504
+    second: elements_background (1)_352
+  - first:
+      213: -3864310614275133106
+    second: elements_background (1)_353
+  - first:
+      213: 363739760691623752
+    second: elements_background (1)_354
+  - first:
+      213: -4094676234155668317
+    second: elements_background (1)_355
+  - first:
+      213: -6054297271501633957
+    second: elements_background (1)_356
+  - first:
+      213: -7908190972989761743
+    second: elements_background (1)_357
+  - first:
+      213: 9082370937287830178
+    second: elements_background (1)_358
+  - first:
+      213: 3488320904835007371
+    second: elements_background (1)_359
+  - first:
+      213: 9068566686865728812
+    second: elements_background (1)_360
+  - first:
+      213: 7880655573853142729
+    second: elements_background (1)_361
+  - first:
+      213: 6690743297214214082
+    second: elements_background (1)_362
+  - first:
+      213: -6129255665673457789
+    second: elements_background (1)_363
+  - first:
+      213: -7678583074490713120
+    second: elements_background (1)_364
+  - first:
+      213: -2431292445021599776
+    second: elements_background (1)_365
+  - first:
+      213: 4930668311155388881
+    second: elements_background (1)_366
+  - first:
+      213: 7033092884967685222
+    second: elements_background (1)_367
+  - first:
+      213: -3625572228176832826
+    second: elements_background (1)_368
+  - first:
+      213: 6890594862428038677
+    second: elements_background (1)_369
+  - first:
+      213: -174596307266384709
+    second: elements_background (1)_370
+  - first:
+      213: 2090978752435367402
+    second: elements_background (1)_371
+  - first:
+      213: -6251217990320378592
+    second: elements_background (1)_372
+  - first:
+      213: 1281940597839675489
+    second: elements_background (1)_373
+  - first:
+      213: -2953104910015289219
+    second: elements_background (1)_374
+  - first:
+      213: -1682009233474366375
+    second: elements_background (1)_375
+  - first:
+      213: -5589249201611633663
+    second: elements_background (1)_376
+  - first:
+      213: 5620884621389098672
+    second: elements_background (1)_377
+  - first:
+      213: -6880706109156516590
+    second: elements_background (1)_378
+  - first:
+      213: -5562202173946417698
+    second: elements_background (1)_379
+  - first:
+      213: 4409659572934717175
+    second: elements_background (1)_380
+  - first:
+      213: -2831208318747682069
+    second: elements_background (1)_381
+  - first:
+      213: -1822811685280274303
+    second: elements_background (1)_382
+  - first:
+      213: -3485957325185834377
+    second: elements_background (1)_383
+  - first:
+      213: 740586659236894733
+    second: elements_background (1)_384
+  - first:
+      213: -4594542500880429659
+    second: elements_background (1)_385
+  - first:
+      213: 7422883065117780463
+    second: elements_background (1)_386
+  - first:
+      213: 6689053101445580677
+    second: elements_background (1)_387
+  - first:
+      213: 4766715532220045702
+    second: elements_background (1)_388
+  - first:
+      213: -8570617278197252477
+    second: elements_background (1)_389
+  - first:
+      213: 7701031190359779805
+    second: elements_background (1)_390
+  - first:
+      213: -3902145963501068317
+    second: elements_background (1)_391
+  - first:
+      213: -4170086119079013433
+    second: elements_background (1)_392
+  - first:
+      213: -8689948873136220226
+    second: elements_background (1)_393
+  - first:
+      213: -4405982012761214244
+    second: elements_background (1)_394
+  - first:
+      213: -9064736157849616091
+    second: elements_background (1)_395
+  - first:
+      213: 4160155818870888826
+    second: elements_background (1)_396
+  - first:
+      213: 2493270529195356931
+    second: elements_background (1)_397
+  - first:
+      213: 8431315838478114232
+    second: elements_background (1)_398
+  - first:
+      213: 8442777402936387059
+    second: elements_background (1)_399
+  - first:
+      213: -2398950935127123744
+    second: elements_background (1)_400
+  - first:
+      213: 7033017444989883917
+    second: elements_background (1)_401
+  - first:
+      213: -2749306908493390439
+    second: elements_background (1)_402
+  - first:
+      213: 8247305011145766016
+    second: elements_background (1)_403
+  - first:
+      213: 3102848133772539954
+    second: elements_background (1)_404
+  - first:
+      213: -4190611132221510944
+    second: elements_background (1)_405
+  - first:
+      213: 9107530518722959306
+    second: elements_background (1)_406
+  - first:
+      213: -6518757542835558512
+    second: elements_background (1)_407
+  - first:
+      213: -8108106923348727872
+    second: elements_background (1)_408
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: elements_background (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236f0d8f78ebff700800000000000000
+      internalID: 576388768531019314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9241dfd544622dff0800000000000000
+      internalID: -12905773852191703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_2
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 2010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f608d883516f61e0800000000000000
+      internalID: -2202434681354844428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_3
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f966a6d645f66b180800000000000000
+      internalID: -9099963588651882849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d7bf6acd0b3a7630800000000000000
+      internalID: 3925514955623741397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55354004722de2300800000000000000
+      internalID: 229351697062056789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aea07f7755156f10800000000000000
+      internalID: 2262237853367971493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0f8b94102d761c0800000000000000
+      internalID: -4510405598814605114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_8
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 1510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19cfd07db565b3f0800000000000000
+      internalID: -885689887391495909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84f6c810beedb9fd0800000000000000
+      internalID: -2334026880936808632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_10
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a6b95b89845eeaa0800000000000000
+      internalID: -6129869093079501143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_11
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1010
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ad179a089bcf810800000000000000
+      internalID: 1800517913291119141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9aa966a53ee6fd0800000000000000
+      internalID: -2346688378405475934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_13
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03e7f9faa2e1ebe0800000000000000
+      internalID: -1449628381070499058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_14
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375eeaa54ab1ce520800000000000000
+      internalID: 2732589466617046387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_15
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 510
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d9b80b7ce9eb720800000000000000
+      internalID: 2863900993551834434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c962a22a3d3f7be20800000000000000
+      internalID: 3366427336767055516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_17
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 10
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907bd70a9a66166d0800000000000000
+      internalID: -2999002998123940087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_18
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 10
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16437f816b8ab45d0800000000000000
+      internalID: -3077180420321233823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_19
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 10
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c5700bdd3dd6250800000000000000
+      internalID: 5939636432666057882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: elements_background (1)_20
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 10
+        width: 1200
+        height: 500
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14475f22aaea324d0800000000000000
+      internalID: -3160490467729771455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

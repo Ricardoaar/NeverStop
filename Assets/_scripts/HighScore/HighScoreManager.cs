@@ -60,10 +60,12 @@ public class HighScoreManager : MonoBehaviour
     }
     
     //Corutina para eliminar un userName
+    /*
     IEnumerator deleteUserNameCoroutine(string userName)
     {
         WWW webRequest = new WWW($"{_webURL}{_privateCode}/delete/");
     }
+    */
     
     
     //Leer los scores almacenados en el programa.

@@ -12,7 +12,7 @@ public class RedLed : MonoBehaviour
 
     void Update()
     {
-        if (PlayerStats.SingleInstance.GetLasserState()) return;
+        if (PlayerStats.SingleInstance.GetLaserState()) return;
         _filler.SetFillValue(PlayerStats.SingleInstance.GetCurrentShootTime());
     }
 }
