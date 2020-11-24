@@ -20,8 +20,13 @@ public class PlayerStats : MonoBehaviour
     private float _currentShootTime;
     private bool _canShoot;
 
+
+    private Animator _animator;
+    private static readonly int IsAlive = Animator.StringToHash("IsAlive");
+
     private void Awake()
     {
+        _animator = GetComponent<Animator>();
         _canShoot = true;
         if (SingleInstance == null)
             SingleInstance = this;
@@ -48,8 +53,10 @@ public class PlayerStats : MonoBehaviour
         ChangeEnergy(energyLostPerSecond * Time.fixedDeltaTime, false);
         _currentScore += Time.deltaTime * _scoreMultiplier;
         _scoreMultiplier += Time.deltaTime / scoreDivider;
-        if (_currentEnergy <= 0)
-            GameManager.SingleInstance.GameOver();
+
+        if (!(_currentEnergy <= 0)) return;
+        GameManager.SingleInstance.GameOver();
+        _animator.SetBool(IsAlive, false);
     }
 
     //Collectables
@@ -115,8 +122,6 @@ public class PlayerStats : MonoBehaviour
     {
         _currentShootTime = 0;
         _canShoot = true;
-        InGameGUI.SingleInstace.SwitchSprite(ref InGameGUI.SingleInstace.redButtonImg, InGameGUI.SingleInstace
-            .redButton);
     }
 
     public float GetShootTime()
@@ -129,7 +134,7 @@ public class PlayerStats : MonoBehaviour
         return _currentShootTime;
     }
 
-    public bool GetLasserState()
+    public bool GetLaserState()
     {
         return _canShoot;
     }

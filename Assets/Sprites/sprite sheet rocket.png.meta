@@ -1,0 +1,935 @@
+fileFormatVersion: 2
+guid: ff44f2b03ccb69a4e9ccd3d82a735293
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8229293217141307695
+    second: sprite sheet rocket_0
+  - first:
+      213: 7429554876048054598
+    second: sprite sheet rocket_1
+  - first:
+      213: -5951635403604844330
+    second: sprite sheet rocket_2
+  - first:
+      213: -9007187192307011020
+    second: sprite sheet rocket_3
+  - first:
+      213: 8461934036604033134
+    second: sprite sheet rocket_4
+  - first:
+      213: -2917046784442689086
+    second: sprite sheet rocket_5
+  - first:
+      213: -3959928196843336169
+    second: sprite sheet rocket_6
+  - first:
+      213: 9099984648259673766
+    second: sprite sheet rocket_7
+  - first:
+      213: -4689236956036224321
+    second: sprite sheet rocket_8
+  - first:
+      213: 417222774384828418
+    second: sprite sheet rocket_9
+  - first:
+      213: 4876624535473303073
+    second: sprite sheet rocket_10
+  - first:
+      213: -2860407240830183511
+    second: sprite sheet rocket_11
+  - first:
+      213: 389986334917240548
+    second: sprite sheet rocket_12
+  - first:
+      213: -960607338577151844
+    second: sprite sheet rocket_13
+  - first:
+      213: 3148334795544654350
+    second: sprite sheet rocket_14
+  - first:
+      213: 3087738726227138309
+    second: sprite sheet rocket_15
+  - first:
+      213: 2834232620851428139
+    second: sprite sheet rocket_16
+  - first:
+      213: -6095391251234008236
+    second: sprite sheet rocket_17
+  - first:
+      213: -5159406086106791316
+    second: sprite sheet rocket_18
+  - first:
+      213: -2120055005275971650
+    second: sprite sheet rocket_19
+  - first:
+      213: -8130304869841621020
+    second: sprite sheet rocket_20
+  - first:
+      213: 2795927053307689078
+    second: sprite sheet rocket_21
+  - first:
+      213: 2115129387566440819
+    second: sprite sheet rocket_22
+  - first:
+      213: 966928317896884052
+    second: sprite sheet rocket_23
+  - first:
+      213: 663917449698950901
+    second: sprite sheet rocket_24
+  - first:
+      213: -3100265013202868830
+    second: sprite sheet rocket_25
+  - first:
+      213: -2668643725939208209
+    second: sprite sheet rocket_26
+  - first:
+      213: 4530046783975464608
+    second: sprite sheet rocket_27
+  - first:
+      213: 1317499013799191520
+    second: sprite sheet rocket_28
+  - first:
+      213: -245113451244266301
+    second: sprite sheet rocket_29
+  - first:
+      213: -3579911194644140258
+    second: sprite sheet rocket_30
+  - first:
+      213: 1227896672940340338
+    second: sprite sheet rocket_31
+  - first:
+      213: 3967884530939697330
+    second: sprite sheet rocket_32
+  - first:
+      213: 7926231589917939347
+    second: sprite sheet rocket_33
+  - first:
+      213: -5902616234390150932
+    second: sprite sheet rocket_34
+  - first:
+      213: -8575070409488873831
+    second: sprite sheet rocket_35
+  - first:
+      213: -3208952132270166757
+    second: sprite sheet rocket_36
+  - first:
+      213: -2340094430140135321
+    second: sprite sheet rocket_37
+  - first:
+      213: 2958691748425990129
+    second: sprite sheet rocket_38
+  - first:
+      213: 104102952370807793
+    second: sprite sheet rocket_39
+  - first:
+      213: -4398212777485875822
+    second: sprite sheet rocket_40
+  - first:
+      213: -6821049668565684407
+    second: sprite sheet rocket_41
+  - first:
+      213: 5581891450193124747
+    second: sprite sheet rocket_42
+  - first:
+      213: 3870712221510811391
+    second: sprite sheet rocket_43
+  - first:
+      213: 7526836225627034104
+    second: sprite sheet rocket_44
+  - first:
+      213: 8339551726508818341
+    second: sprite sheet rocket_45
+  - first:
+      213: -3915203621693032483
+    second: sprite sheet rocket_46
+  - first:
+      213: 202289019668015446
+    second: sprite sheet rocket_47
+  - first:
+      213: 8915424585796284318
+    second: sprite sheet rocket_48
+  - first:
+      213: -6335611927645563887
+    second: sprite sheet rocket_49
+  - first:
+      213: 4280809089712249304
+    second: sprite sheet rocket_50
+  - first:
+      213: -7712229072162495129
+    second: sprite sheet rocket_51
+  - first:
+      213: 6560890413789061485
+    second: sprite sheet rocket_52
+  - first:
+      213: -5452960542527736274
+    second: sprite sheet rocket_53
+  - first:
+      213: -3703593430117683091
+    second: sprite sheet rocket_54
+  - first:
+      213: 2573579845055300497
+    second: sprite sheet rocket_55
+  - first:
+      213: -7579522557659467856
+    second: sprite sheet rocket_56
+  - first:
+      213: -6522492602393962100
+    second: sprite sheet rocket_6
+  - first:
+      213: 1162779567878118916
+    second: sprite sheet rocket_7
+  - first:
+      213: 4571437726548764374
+    second: sprite sheet rocket_8
+  - first:
+      213: -8501175772912110889
+    second: sprite sheet rocket_9
+  - first:
+      213: -5146290651078974366
+    second: sprite sheet rocket_10
+  - first:
+      213: -1731807407822841558
+    second: sprite sheet rocket_11
+  - first:
+      213: -2386999161141434646
+    second: sprite sheet rocket_22
+  - first:
+      213: -2961715613041009443
+    second: sprite sheet rocket_23
+  - first:
+      213: 6995823064426091724
+    second: sprite sheet rocket_24
+  - first:
+      213: -6161803141317136608
+    second: sprite sheet rocket_25
+  - first:
+      213: 6706015332478337906
+    second: sprite sheet rocket_26
+  - first:
+      213: -2496646123819611289
+    second: sprite sheet rocket_27
+  - first:
+      213: -2835005076241470241
+    second: sprite sheet rocket_28
+  - first:
+      213: -3167072353044783464
+    second: sprite sheet rocket_29
+  - first:
+      213: -5737285783410908280
+    second: sprite sheet rocket_30
+  - first:
+      213: 9130729667355045989
+    second: sprite sheet rocket_31
+  - first:
+      213: 4213741452361966306
+    second: sprite sheet rocket_32
+  - first:
+      213: 1848652800768250136
+    second: sprite sheet rocket_33
+  - first:
+      213: 6353586764022945466
+    second: sprite sheet rocket_34
+  - first:
+      213: 923827354446893481
+    second: sprite sheet rocket_35
+  - first:
+      213: 5562594232683396783
+    second: sprite sheet rocket_36
+  - first:
+      213: -5711905263058807461
+    second: sprite sheet rocket_37
+  - first:
+      213: -3665751922944800972
+    second: sprite sheet rocket_38
+  - first:
+      213: 4139550677210289132
+    second: sprite sheet rocket_39
+  - first:
+      213: -268447192558321134
+    second: sprite sheet rocket_40
+  - first:
+      213: 2401624634063467035
+    second: sprite sheet rocket_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite sheet rocket_6
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2767
+        width: 372
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e891b19428b09c0800000000000000
+      internalID: -3959928196843336169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_7
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 2722
+        width: 372
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ae9605e2d3a94e70800000000000000
+      internalID: 9099984648259673766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_8
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 2651
+        width: 370
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbaa3d745db7ceeb0800000000000000
+      internalID: -4689236956036224321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_9
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 2603
+        width: 372
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200296b17e54ac500800000000000000
+      internalID: 417222774384828418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_10
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 2540
+        width: 370
+        height: 666
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e27d37d204da340800000000000000
+      internalID: 4876624535473303073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_11
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 2568
+        width: 372
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a79c5105cacd48d0800000000000000
+      internalID: -2860407240830183511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_22
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1731
+        width: 372
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37123e7b8f27a5d10800000000000000
+      internalID: 2115129387566440819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_23
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1746
+        width: 372
+        height: 626
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f728f9e283b6d00800000000000000
+      internalID: 966928317896884052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_24
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1747
+        width: 372
+        height: 625
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe3d752765b63900800000000000000
+      internalID: 663917449698950901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_25
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 1731
+        width: 370
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5a87a7565a9f4d0800000000000000
+      internalID: -3100265013202868830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_26
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1743
+        width: 372
+        height: 629
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fef815b9ba217fad0800000000000000
+      internalID: -2668643725939208209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_27
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 1731
+        width: 370
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae12ce7c85fdde30800000000000000
+      internalID: 4530046783975464608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_28
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 1731
+        width: 372
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3ad656f52b84210800000000000000
+      internalID: 1317499013799191520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_29
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 916
+        width: 372
+        height: 624
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc5ae06d9e299cf0800000000000000
+      internalID: -245113451244266301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_30
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 899
+        width: 372
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1faac35cb9915ec0800000000000000
+      internalID: -3579911194644140258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_31
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 899
+        width: 372
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2743e73b48d5a0110800000000000000
+      internalID: 1227896672940340338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_32
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 899
+        width: 370
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b89d6845f1c01730800000000000000
+      internalID: 3967884530939697330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_33
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 899
+        width: 372
+        height: 643
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396d984d2a1affd60800000000000000
+      internalID: 7926231589917939347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_34
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 901
+        width: 370
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0a8b7eec1b51ea0800000000000000
+      internalID: -5902616234390150932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_35
+      rect:
+        serializedVersion: 2
+        x: 3462
+        y: 899
+        width: 372
+        height: 641
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996c37e25ea3ff880800000000000000
+      internalID: -8575070409488873831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_36
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 72
+        width: 372
+        height: 636
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dedc699038773d0800000000000000
+      internalID: -3208952132270166757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_37
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 44
+        width: 372
+        height: 664
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76880ae9380568fd0800000000000000
+      internalID: -2340094430140135321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_38
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 107
+        width: 372
+        height: 601
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff7fc828726f0920800000000000000
+      internalID: 2958691748425990129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_39
+      rect:
+        serializedVersion: 2
+        x: 1780
+        y: 155
+        width: 370
+        height: 553
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3a1286519d17100800000000000000
+      internalID: 104102952370807793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_40
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 226
+        width: 372
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 295ce5718c866f2c0800000000000000
+      internalID: -4398212777485875822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite sheet rocket_41
+      rect:
+        serializedVersion: 2
+        x: 2902
+        y: 271
+        width: 370
+        height: 437
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94fa8d54773c651a0800000000000000
+      internalID: -6821049668565684407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -8,8 +9,13 @@ using Random = UnityEngine.Random;
 [DefaultExecutionOrder(1000)]
 public class InGameGUI : MonoBehaviour
 {
+    private float _currentTime, _currentGoalTime;
+    private Coroutine _cChangeTarget;
+
+
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI layerText;
+    public TextMeshProUGUI layerMeters;
     public TextMeshProUGUI currentObjText;
     public Image currentObject;
     public Image energyFill;
@@ -20,10 +26,9 @@ public class InGameGUI : MonoBehaviour
 
     private List<String> _objectsNames = new List<string>();
 
-    [Header("Leds")] public Image redButtonImg;
-    public Image greenButtonImg;
-    public Sprite redButton, greenButton, buttonDown;
+    public Filler GreenLedFiller;
 
+    private PhaseManager _phaseManager;
 
     private void Awake()
     {
@@ -31,6 +36,9 @@ public class InGameGUI : MonoBehaviour
         {
             SingleInstace = this;
         }
+
+        _currentGoalTime = 0;
+        _currentTime = 0;
     }
 
     private void Start()
@@ -42,6 +50,8 @@ public class InGameGUI : MonoBehaviour
             _objects.Add(item.sprite);
             _objectsNames.Add(item.elementName);
         }
+
+        _phaseManager = FindObjectOfType<PhaseManager>();
     }
 
     private void Update()
@@ -49,12 +59,21 @@ public class InGameGUI : MonoBehaviour
         if (GameManager.SingleInstance.GetCurrentGameState() != GameState.InGame) return;
         energyFill.fillAmount = _energyDivider * PlayerStats.SingleInstance.GetCurrentEnergy();
         scoreText.text = $"{PlayerStats.SingleInstance.GetCurrentScore()}";
+
+
+        if (_currentTime >= _currentGoalTime && _cChangeTarget == null)
+            _cChangeTarget = StartCoroutine(ChangeTargetUI());
+        else if (_cChangeTarget == null)
+        {
+            GreenLedFiller.SetFillValue(_currentGoalTime - _currentTime);
+            _currentTime += Time.deltaTime;
+        }
     }
 
-//Refactorizar esto al tener el phase manager
+    //Refactorizar esto al tener el phase manager
 
 
-    public void ChangeObj(bool random, int i = 0)
+    private void ChangeObj(bool random, int i = 0)
     {
         if (!random)
         {
@@ -68,8 +87,41 @@ public class InGameGUI : MonoBehaviour
         }
     }
 
-    public void SwitchSprite(ref Image current, Sprite newSprite)
+
+    private IEnumerator ChangeTargetUI()
     {
-        current.sprite = newSprite;
+        var randomTimes = Random.Range(10, 20);
+        GreenLedFiller.SetMaxValue(randomTimes);
+        GreenLedFiller.SetFillValue(0);
+        for (var i = 0; i < randomTimes; i++)
+        {
+            ChangeObj(true);
+            GreenLedFiller.SetFillValue(i);
+            yield return new WaitUntil(() => GameManager.SingleInstance.GetCurrentGameState() == GameState.InGame);
+            yield return new WaitForSeconds(0.2f);
+            if (i == 0)
+                PlayerStats.SingleInstance.ChangeCollectableType(CollectableType.Null);
+        }
+
+        //Change UI and final item
+        var currentCollectable = Random.Range(0, GameManager.SingleInstance.collectables.Count);
+
+        ChangeObj(false, currentCollectable);
+        PlayerStats.SingleInstance.ChangeCollectableType(currentCollectable);
+
+        //ResetTimeAndCoroutine
+        _currentGoalTime = Random.Range(_phaseManager.GetMinTimeBetweenCollectable(),
+            _phaseManager.GetMaxTimeBetweenCollectable());
+
+        GreenLedFiller.SetMaxValue(_currentGoalTime);
+        _currentTime = 0;
+        _cChangeTarget = null;
+    }
+
+
+    public void ChangeLayerText(String newLayerText, String newLayerMeters)
+    {
+        layerText.text = newLayerText;
+        layerMeters.text = newLayerMeters;
     }
 }

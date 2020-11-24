@@ -16,7 +16,12 @@ MonoBehaviour:
   atmosphereLayerDescription: 50 - 84.99 km
   minTimeCollectableChange: 8
   maxTimeCollectableChange: 13
-  collectableVelocity: 3
-  timeToSpawn: 0.8
+  collectableVelocity: 4
+  timeToSpawn: 0.7
   scoreToChangePhase: 400
-  color: {r: 0, g: 0, b: 0, a: 0}
+  color: {r: 0.12941177, g: 0.25490198, b: 0.5372549, a: 1}
+  transitionTime: 4
+  phaseDecElements:
+  - {fileID: -2334026880936808632, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
+  - {fileID: -6129869093079501143, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
+  - {fileID: 1800517913291119141, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
