@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -16,6 +15,11 @@ public enum CollectableType
 
 public class Collectable : MonoBehaviour
 {
+    public delegate void ONCollect();
+
+    public static event ONCollect OnCollectBad;
+
+
     private static float _velocity;
     [SerializeField] private CollectableType type;
     [SerializeField] private new ParticleSystem particleSystem;
@@ -26,7 +30,6 @@ public class Collectable : MonoBehaviour
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
-        _velocity = 5;
         _canSum = true;
         _renderer = GetComponent<SpriteRenderer>();
     }
@@ -47,12 +50,16 @@ public class Collectable : MonoBehaviour
     {
         if (!_canSum) return;
         _canSum = false;
-        particleSystem.Play();
         _renderer.enabled = false;
+        particleSystem.Play();
         if (GetCollectableType() == PlayerStats.SingleInstance.GetCurrentCollectable())
             PlayerStats.SingleInstance.ChangeEnergy(PlayerStats.SingleInstance.energyPerObj);
         else
+        {
+            OnCollectBad?.Invoke();
+
             PlayerStats.SingleInstance.ChangeEnergy(PlayerStats.SingleInstance.energyLostPerBadObj, false);
+        }
     }
 
     /// <summary>
@@ -104,9 +111,14 @@ public class Collectable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if (!PlayerStats.SingleInstance.Shoot()) return;
+        if (!PlayerStats.SingleInstance.Shoot() ||
+            GameManager.SingleInstance.GetCurrentGameState() != GameState.InGame) return;
+
         BeCollected();
-        InGameGUI.SingleInstace.SwitchSprite(ref InGameGUI.SingleInstace.redButtonImg, InGameGUI.SingleInstace
-            .buttonDown);
+    }
+
+    private void OnDestroy()
+    {
+        OnCollectBad = null;
     }
 }
