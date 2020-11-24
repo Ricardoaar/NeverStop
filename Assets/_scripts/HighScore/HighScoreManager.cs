@@ -21,49 +21,70 @@ public class HighScoreManager : MonoBehaviour
     }
     
     // Añadir nuevo Score
-    public static void AddNewHighscore(string username, int score) {
+    public static void AddNewHighScore(string username, float score) {
         _instance.StartCoroutine(_instance.AddScoreCoroutine(username,score));
     }
     
-    IEnumerator AddScoreCoroutine(string username, int score) {
-        WWW webRequest;
-        
-        // Primero revisar si el username ya existe.
-        webRequest = new WWW($"{_webURL}{_privateCode}/pipe-get/{WWW.EscapeURL(username)}");
+    IEnumerator AddScoreCoroutine(string userName, float score) {
+        WWW webRequest = new WWW(
+            $"{_webURL}{_privateCode}/pipe-get/{WWW.EscapeURL(userName)}");
         yield return webRequest;
 
         if (string.IsNullOrEmpty(webRequest.error))
         {
+            //Consultar si el userName está registrado
             if (!string.IsNullOrEmpty(webRequest.text))
             {
                 FormatHighScores(webRequest.text);
-                Score selectScore = _listScore.FirstOrDefault(x => x.UserName.Equals(username));
+                Score selectScore = _listScore.FirstOrDefault(
+                    x => x.UserName.Equals(userName));
                 if (score > selectScore.Value)
                 {
-                    //Debe eliminar el userName actual.
+                    //Debe eliminar el userName actual y agregar el nuevo
+                    StartCoroutine(DeleteUserNameCoroutine(userName));
+                    StartCoroutine(AddNewUserName(userName, score));
                 }
             }
+            else
+                StartCoroutine(AddNewUserName(userName, score));
         }
-
-
-
-        // WWW www = new WWW(_webURL + _privateCode + "/add/" + WWW.EscapeURL(username) + "/" + score);
-        // yield return www;
-        //
-        // if (string.IsNullOrEmpty(www.error)) {
-        //     print ("Upload Successful");
-        //     ReadScore();
-        // }
-        // else {
-        //     print ("Error uploading: " + www.error);
-        // }
+    }
+    
+    //Corutina para agregar un nuevo userName
+    IEnumerator AddNewUserName(string userName, double score)
+    {
+        WWW webRequest = new WWW(
+            $"{_webURL}{_privateCode}/add/{WWW.EscapeURL(userName)}/{score}");
+        yield return webRequest;
+        
+        if (string.IsNullOrEmpty(webRequest.error)) {
+            print ($"{userName} upload successful");
+            ReadScore();
+        }
+        else
+            print ("Error uploading: " + webRequest.error);
     }
     
     //Corutina para eliminar un userName
+<<<<<<< HEAD
+    IEnumerator DeleteUserNameCoroutine(string userName)
+=======
     /*
     IEnumerator deleteUserNameCoroutine(string userName)
+>>>>>>> c29136b0733d1f8d87364bb6c61287c19c4e54d2
     {
         WWW webRequest = new WWW($"{_webURL}{_privateCode}/delete/");
+        yield return webRequest;
+
+        if (string.IsNullOrEmpty(webRequest.error))
+        {
+            Debug.Log($"{userName} deleted!");
+            ReadScore();
+        }
+        else
+        {
+            Debug.LogError($"Error deleting: {webRequest.error}");
+        }
     }
     */
     
