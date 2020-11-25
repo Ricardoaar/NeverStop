@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.Networking;
 
 public class HighScoreManager : MonoBehaviour
 {
@@ -23,7 +22,8 @@ public class HighScoreManager : MonoBehaviour
     // Añadir nuevo Score
     public static void AddNewHighScore(string username, float score)
     {
-        _instance.StartCoroutine(_instance.AddScoreCoroutine(username, score));
+        _instance.StartCoroutine(_instance.AddScoreCoroutine(
+            _instance.ClearText(username), score));
     }
 
     IEnumerator AddScoreCoroutine(string userName, float score)
@@ -100,7 +100,7 @@ public class HighScoreManager : MonoBehaviour
         if (string.IsNullOrEmpty(webRequest.error))
         {
             FormatHighScores(webRequest.text);
-            _displayHighScores.OnHighScoresDownloades(_listScore);
+            _displayHighScores.OnHighScoresDownloaded(_listScore);
         }
         else
             Debug.LogError($"Error downloading: {webRequest.error}");
@@ -120,5 +120,17 @@ public class HighScoreManager : MonoBehaviour
                 Value = float.Parse(entryInfo[1])
             });
         }
+        
+        //Ordenar la lista por puntaje
+        _listScore.OrderBy(x => x.Value);
+    }
+
+    private string ClearText(string userName)
+    {
+        return userName
+            .Replace("|", "")
+            .Replace("@", "")
+            .Replace(",", "")
+            .Replace("=", "");
     }
 }
