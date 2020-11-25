@@ -25,6 +25,8 @@ public class Collectable : MonoBehaviour
     private SpriteRenderer _renderer;
     private bool _canSum;
     private Rigidbody2D _rigidbody;
+    [SerializeField] private AudioClip _rightCollectableSfx;
+    [SerializeField] private AudioClip _badCollectableSfx;
 
     private void Awake()
     {
@@ -52,12 +54,15 @@ public class Collectable : MonoBehaviour
         _renderer.enabled = false;
         particleSystem.Play();
         if (GetCollectableType() == PlayerStats.SingleInstance.GetCurrentCollectable())
+        {
             PlayerStats.SingleInstance.ChangeEnergy(PlayerStats.SingleInstance.energyPerObj);
+            AudioManager.SingleInstance.PlaySFX(_rightCollectableSfx);
+        }
         else
         {
             OnCollectBad?.Invoke();
-
             PlayerStats.SingleInstance.ChangeEnergy(PlayerStats.SingleInstance.energyLostPerBadObj, false);
+            AudioManager.SingleInstance.PlaySFX(_badCollectableSfx);
         }
     }
 

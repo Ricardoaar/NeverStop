@@ -910,6 +910,7 @@ MonoBehaviour:
   energyLostPerBadObj: 5
   energyLostPerSecond: 2
   timeBetweenShoot: 6
+  _launchSfx: {fileID: 8300000, guid: 146ba2f8b8f733e49bfde8a6c6d17c50, type: 3}
 --- !u!70 &287316972
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3818,7 +3819,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5239,6 +5240,10 @@ MonoBehaviour:
   currentObject: {fileID: 4298713083290273742}
   energyFill: {fileID: 1555046167490758852}
   GreenLedFiller: {fileID: 1903966400}
+  _collectableChangeSfx: {fileID: 8300000, guid: 0fa8642ee6473bb468722830e6e53ca7,
+    type: 3}
+  _collectableSelectedSfx: {fileID: 8300000, guid: 283e29153f6ad8c41b815d2c5f842694,
+    type: 3}
 --- !u!114 &4298713083454284612
 MonoBehaviour:
   m_ObjectHideFlags: 0

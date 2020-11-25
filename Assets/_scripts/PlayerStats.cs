@@ -24,6 +24,8 @@ public class PlayerStats : MonoBehaviour
     private Animator _animator;
     private static readonly int IsAlive = Animator.StringToHash("IsAlive");
 
+    [SerializeField] private AudioClip _launchSfx;
+
     private void Awake()
     {
         _animator = GetComponent<Animator>();
@@ -35,6 +37,7 @@ public class PlayerStats : MonoBehaviour
     private void Start()
     {
         RestartValues();
+        AudioManager.SingleInstance.PlaySFX(_launchSfx);
     }
 
     private void Update()

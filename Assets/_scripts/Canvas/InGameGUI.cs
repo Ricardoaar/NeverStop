@@ -30,6 +30,12 @@ public class InGameGUI : MonoBehaviour
 
     private PhaseManager _phaseManager;
 
+    [SerializeField]
+    private AudioClip _collectableChangeSfx;
+
+    [SerializeField]
+    private AudioClip _collectableSelectedSfx;
+
     private void Awake()
     {
         if (SingleInstace == null)
@@ -93,6 +99,7 @@ public class InGameGUI : MonoBehaviour
         var randomTimes = Random.Range(10, 20);
         GreenLedFiller.SetMaxValue(randomTimes);
         GreenLedFiller.SetFillValue(0);
+        AudioManager.SingleInstance.PlaySFX(_collectableChangeSfx);
         for (var i = 0; i < randomTimes; i++)
         {
             ChangeObj(true);
@@ -108,6 +115,7 @@ public class InGameGUI : MonoBehaviour
 
         ChangeObj(false, currentCollectable);
         PlayerStats.SingleInstance.ChangeCollectableType(currentCollectable);
+        AudioManager.SingleInstance.PlaySFX(_collectableSelectedSfx);
 
         //ResetTimeAndCoroutine
         _currentGoalTime = Random.Range(_phaseManager.GetMinTimeBetweenCollectable(),

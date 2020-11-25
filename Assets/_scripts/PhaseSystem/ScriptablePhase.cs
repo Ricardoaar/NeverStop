@@ -26,6 +26,8 @@ public class ScriptablePhase : ScriptableObject
     [Tooltip("Tiempo de transicion del background ")]
     public float transitionTime;
 
+    [Tooltip("Música de fondo de la fase")]
+    public AudioClip bgm;
 
     public List<Sprite> phaseDecElements = new List<Sprite>();
 }

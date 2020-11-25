@@ -18,7 +18,6 @@ public class PhaseManager : MonoBehaviour
     [SerializeField] private string _atmosphereLayer;
     private string _atmosphereLayerDescription;
 
-
     void Start()
     {
         _currentPhase = -1;
@@ -48,6 +47,10 @@ public class PhaseManager : MonoBehaviour
         _scoreToChangePhase = nextPhase.scoreToChangePhase;
         SpawnArea.ChangeSpawnTime(nextPhase.timeToSpawn);
         Collectable.ChangeVelocity(nextPhase.collectableVelocity);
+        StartCoroutine(FadeMixerGroup.StartFade(
+            AudioManager.SingleInstance.GetAudioMixer(), "BGMVolumen", 3.5f, 0.0f));
+        //AudioManager.SingleInstance.PlayBGM(nextPhase.bgm);
+        AudioManager.SingleInstance.SetBgmClip(nextPhase.bgm);
     }
 
     public float GetMinTimeBetweenCollectable()

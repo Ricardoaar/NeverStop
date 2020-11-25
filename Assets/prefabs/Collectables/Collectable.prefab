@@ -49,6 +49,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   particleSystem: {fileID: 5483797981486346916}
+  _rightCollectableSfx: {fileID: 8300000, guid: edab4da454475684993423d80a0bc1a3,
+    type: 3}
+  _badCollectableSfx: {fileID: 8300000, guid: 151a8e65ebb5ecd44bed24560cc762db, type: 3}
 --- !u!212 &5483797982699508717
 SpriteRenderer:
   m_ObjectHideFlags: 0
