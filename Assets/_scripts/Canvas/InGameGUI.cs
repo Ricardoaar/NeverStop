@@ -104,7 +104,7 @@ public class InGameGUI : MonoBehaviour
 
 
         yield return new WaitUntil(() => _cToggleUI == null);
-        AudioManager.SingleInstance.PlaySFX(_collectableChangeSfx);
+        AudioManager.SingleInstance.PlaySFXLoop(_collectableChangeSfx);
         for (var i = 0; i < randomTimes; i++)
         {
             ChangeObj(true);
@@ -115,6 +115,7 @@ public class InGameGUI : MonoBehaviour
                 PlayerStats.SingleInstance.ChangeCollectableType(CollectableType.Null);
         }
 
+        AudioManager.SingleInstance.StopSFXLoop();
         //Change UI and final item
         var currentCollectable = Random.Range(0, GameManager.SingleInstance.collectables.Count);
 

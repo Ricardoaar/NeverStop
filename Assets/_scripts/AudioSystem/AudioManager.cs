@@ -11,6 +11,9 @@ public class AudioManager : MonoBehaviour
     [SerializeField, Tooltip("AudioSource para los efectos de sonidos")]
     private AudioSource _sfx;
 
+    [SerializeField, Tooltip("AudioSource para los efectos de sonidos en loop")]
+    private AudioSource _sfxLoop;
+
     private float _currentVolumen;
 
     private AudioClip _bgmClip;
@@ -40,6 +43,16 @@ public class AudioManager : MonoBehaviour
         _sfx.PlayOneShot(clip);
     }
 
+    public void PlaySFXLoop(AudioClip clip)
+    {
+        _sfxLoop.clip = clip;
+        _sfxLoop.Play();
+    }
+
+    public void StopSFXLoop()
+    {
+        _sfxLoop.Stop();
+    }
 
     public bool MusicPlaying()
     {
