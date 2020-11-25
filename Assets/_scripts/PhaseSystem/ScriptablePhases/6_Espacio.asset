@@ -21,6 +21,7 @@ MonoBehaviour:
   scoreToChangePhase: 5000
   color: {r: 0.003921569, g: 0.02745098, b: 0.06666667, a: 0}
   transitionTime: 4
+  bgm: {fileID: 8300000, guid: b44d15b119331e84c9df1e06f93ea598, type: 3}
   phaseDecElements:
   - {fileID: 5939636432666057882, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: -1449628381070499058, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
