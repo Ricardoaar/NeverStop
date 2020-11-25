@@ -4,6 +4,10 @@ using UnityEngine;
 [DefaultExecutionOrder(-100)]
 public class PlayerStats : MonoBehaviour
 {
+    [SerializeField] private bool inmortal, die;
+
+    [SerializeField, Range(0, 10)] private float timeScale;
+
     public static PlayerStats SingleInstance;
     private float _currentScore;
     private float _currentEnergy;
@@ -42,6 +46,17 @@ public class PlayerStats : MonoBehaviour
 
     private void Update()
     {
+        Time.timeScale = timeScale;
+        if (inmortal)
+        {
+            _currentEnergy = initialEnergy;
+        }
+
+        if (die)
+        {
+            _currentEnergy = 0;
+        }
+
         if (_canShoot || GameManager.SingleInstance.GetCurrentGameState() != GameState.InGame) return;
         _currentShootTime += Time.deltaTime;
         if (_currentShootTime >= timeBetweenShoot)

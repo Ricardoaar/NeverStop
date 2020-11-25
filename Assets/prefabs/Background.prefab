@@ -94,9 +94,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 572a61018056ca44ab3972bd8b186229, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minSpawnTime: 3
-  maxSpawnTime: 6
-  fallVelocity: 3
+  minSpawnTime: 2
+  maxSpawnTime: 3
+  fallVelocity: 2
   template: {fileID: 1251240767837673151, guid: 26546769809b7de439d10536bc5ff793,
     type: 3}
   insZone: {fileID: 0}

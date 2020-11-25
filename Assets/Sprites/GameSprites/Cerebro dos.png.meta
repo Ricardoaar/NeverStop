@@ -137,7 +137,7 @@ TextureImporter:
         width: 339
         height: 343
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -153,12 +153,12 @@ TextureImporter:
       name: Cerebro dos_1
       rect:
         serializedVersion: 2
-        x: 178
-        y: 149
-        width: 403
-        height: 343
+        x: 192
+        y: 160
+        width: 395
+        height: 345
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

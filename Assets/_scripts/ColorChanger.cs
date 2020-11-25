@@ -7,10 +7,6 @@ public class ColorChanger : MonoBehaviour
     [SerializeField] private SpriteRenderer background;
     private Coroutine _cColorChange;
 
-    private void Awake()
-    {
-        Debug.Log(background.color);
-    }
 
     public void ChangeColor(Color newColor, float transitionTime)
     {

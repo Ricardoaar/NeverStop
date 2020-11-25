@@ -120,7 +120,7 @@ public class HighScoreManager : MonoBehaviour
                 Value = float.Parse(entryInfo[1])
             });
         }
-        
+
         //Ordenar la lista por puntaje
         _listScore.OrderBy(x => x.Value);
     }
