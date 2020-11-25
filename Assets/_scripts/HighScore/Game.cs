@@ -1,16 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SocialPlatforms;
 
 public class Game : MonoBehaviour
 {
     // Update is called once per frame
-    void Update()
+    [SerializeField]
+    private TMP_InputField txtUserName;
+
+    public void OnClickButtonSave()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            HighScoreManager.AddNewHighScore("Marta", 193);
-            Debug.Log("Listo");
-        }
+        string userName = txtUserName.text;
+        HighScoreManager.AddNewHighScore(userName, Random.Range(400, 1000));
     }
 }

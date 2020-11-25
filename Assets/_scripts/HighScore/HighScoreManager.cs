@@ -20,13 +20,13 @@ public class HighScoreManager : MonoBehaviour
     }
 
     // Añadir nuevo Score
-    public static void AddNewHighScore(string username, float score)
+    public static void AddNewHighScore(string username, int score)
     {
         _instance.StartCoroutine(_instance.AddScoreCoroutine(
             _instance.ClearText(username), score));
     }
 
-    IEnumerator AddScoreCoroutine(string userName, float score)
+    IEnumerator AddScoreCoroutine(string userName, int score)
     {
         WWW webRequest = new WWW(
             $"{_webURL}{_privateCode}/pipe-get/{WWW.EscapeURL(userName)}");
@@ -53,7 +53,7 @@ public class HighScoreManager : MonoBehaviour
     }
 
     //Corutina para agregar un nuevo userName
-    IEnumerator AddNewUserName(string userName, double score)
+    IEnumerator AddNewUserName(string userName, int score)
     {
         WWW webRequest = new WWW(
             $"{_webURL}{_privateCode}/add/{WWW.EscapeURL(userName)}/{score}");
@@ -117,7 +117,7 @@ public class HighScoreManager : MonoBehaviour
             _listScore.Add(new Score
             {
                 UserName = entryInfo[0],
-                Value = float.Parse(entryInfo[1])
+                Value = int.Parse(entryInfo[1])
             });
         }
         
