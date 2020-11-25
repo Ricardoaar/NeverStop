@@ -2,18 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DisplayHighScores : MonoBehaviour
 {
-    [SerializeField] private List<Text> highScoreFields;
+    [SerializeField] private List<TextMeshProUGUI> highScoreFields;
     private HighScoreManager _scoreManager;
 
     private void Start()
     {
         int i = 0;
-        foreach (Text scoreField in highScoreFields)
+        foreach (TextMeshProUGUI scoreField in highScoreFields)
         {
             i++;
             scoreField.text = $"{i}. Cargando...";
@@ -28,7 +29,7 @@ public class DisplayHighScores : MonoBehaviour
     public void OnHighScoresDownloaded(List<Score> listScores)
     {
         int i = 0;
-        foreach (Text scoreField in highScoreFields)
+        foreach (TextMeshProUGUI scoreField in highScoreFields)
         {
             scoreField.text = $"{i + 1}. ";
             if (i < listScores.Count)

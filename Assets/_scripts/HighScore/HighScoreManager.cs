@@ -22,7 +22,8 @@ public class HighScoreManager : MonoBehaviour
     // Añadir nuevo Score
     public static void AddNewHighScore(string username, float score)
     {
-        _instance.StartCoroutine(_instance.AddScoreCoroutine(username, score));
+        _instance.StartCoroutine(_instance.AddScoreCoroutine(
+            _instance.ClearText(username), score));
     }
 
     IEnumerator AddScoreCoroutine(string userName, float score)
@@ -122,5 +123,14 @@ public class HighScoreManager : MonoBehaviour
         
         //Ordenar la lista por puntaje
         _listScore.OrderBy(x => x.Value);
+    }
+
+    private string ClearText(string userName)
+    {
+        return userName
+            .Replace("|", "")
+            .Replace("@", "")
+            .Replace(",", "")
+            .Replace("=", "");
     }
 }
