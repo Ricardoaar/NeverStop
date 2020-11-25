@@ -2,17 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class DisplayHighScores : MonoBehaviour
 {
     [SerializeField] private List<TextMeshProUGUI> highScoreFields;
     private HighScoreManager _scoreManager;
-    private static List<float> _scores = new List<float>();
-    private static Dictionary<string, float> _scoresString = new Dictionary<string, float>();
+    private static List<int> _scores = new List<int>();
     private Coroutine _cScores;
 
     private void Start()
@@ -32,8 +29,7 @@ public class DisplayHighScores : MonoBehaviour
 
     public void OnHighScoresDownloaded(List<Score> listScores)
     {
-        var currentScores = new List<float>();
-        var currentDict = listScores.ToDictionary(score => score.UserName, score => score.Value);
+        var currentScores = new List<int>();
 
         int i = 0;
         foreach (TextMeshProUGUI scoreField in highScoreFields)
@@ -41,24 +37,19 @@ public class DisplayHighScores : MonoBehaviour
             scoreField.text = $"{i + 1}. ";
             if (i < listScores.Count)
             {
-                scoreField.text += $"{listScores[i].UserName} - {listScores[i].Value / 100}";
+                scoreField.text += $"{listScores[i].UserName} - {listScores[i].Value}";
                 currentScores.Add(listScores[i].Value);
             }
 
             i++;
         }
 
-        _scoresString = currentDict;
+        _scores = currentScores;
     }
 
-    public static List<float> GetScoreList()
+    public static List<int> GetScoreList()
     {
         return _scores;
-    }
-
-    public static Dictionary<string, float> GetScoreDict()
-    {
-        return _scoresString;
     }
 
 

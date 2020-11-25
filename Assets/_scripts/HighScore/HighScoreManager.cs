@@ -117,7 +117,7 @@ public class HighScoreManager : MonoBehaviour
             _listScore.Add(new Score
             {
                 UserName = entryInfo[0],
-                Value = float.Parse(entryInfo[1])
+                Value = Int32.Parse(entryInfo[1])
             });
         }
 

@@ -7,7 +7,6 @@ using System.Threading;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UIElements;
 
 public class HighScoreReader : MonoBehaviour
 {
@@ -38,7 +37,7 @@ public class HighScoreReader : MonoBehaviour
 
         for (var i = 0; i < 3; i++)
         {
-            _currentScore.Value = playerScore;
+            _currentScore.Value = (int) playerScore;
             Debug.Log(playerScore + " : " + scoreList[i]);
             if (!(playerScore > scoreList[i])) continue;
 //Muestra esta ui en caso de que haya nuevo max score
@@ -51,7 +50,6 @@ public class HighScoreReader : MonoBehaviour
 
     public void OnGameOver()
     {
-        Debug.Log("VAR");
         if (CheckScore())
         {
             StartCoroutine(ReadNewHighScore());
@@ -61,10 +59,12 @@ public class HighScoreReader : MonoBehaviour
     public void ReadValue()
     {
         if (forbiddenWords.Contains(inputField.text.ToLower()) || inputField.text.Length == 0)
-            _currentScore.UserName = "******";
+            _currentScore.UserName = "ForbiddenName";
 
         else
-            _currentScore.UserName = _textInfo.ToTitleCase(inputField.text).Trim();
+            _currentScore.UserName = _textInfo.ToTitleCase(inputField.text).Trim().Replace(" ", "");
+
+        SetObjScoreEnable(false);
 
         _readValue = true;
     }
@@ -72,8 +72,8 @@ public class HighScoreReader : MonoBehaviour
     private IEnumerator ReadNewHighScore()
     {
         yield return new WaitUntil(() => _readValue);
-        Debug.Log(_currentScore.UserName + " " + _currentScore.Value);
-        HighScoreManager.AddNewHighScore(_currentScore.UserName, _currentScore.Value * 100);
+
+        HighScoreManager.AddNewHighScore(_currentScore.UserName, _currentScore.Value);
         onNewMaxScore.Invoke();
     }
 
