@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Final/MainMenu.unity
     guid: a2c13ad9c9f22754f801499362f5632f
   - enabled: 1
-    path: Assets/Scenes/Final/Cursor-.unity
+    path: Assets/Scenes/Final/FinalScene.unity
     guid: 3c134947023b46d4d92cf45629ea9b61
   m_configObjects: {}
