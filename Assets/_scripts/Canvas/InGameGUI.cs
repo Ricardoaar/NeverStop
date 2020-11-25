@@ -10,8 +10,9 @@ using Random = UnityEngine.Random;
 public class InGameGUI : MonoBehaviour
 {
     private float _currentTime, _currentGoalTime;
-    private Coroutine _cChangeTarget;
+    private Coroutine _cChangeTarget, _cToggleUI;
 
+    [SerializeField] private Image shootUIImage;
 
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI layerText;
@@ -30,11 +31,9 @@ public class InGameGUI : MonoBehaviour
 
     private PhaseManager _phaseManager;
 
-    [SerializeField]
-    private AudioClip _collectableChangeSfx;
+    [SerializeField] private AudioClip _collectableChangeSfx;
 
-    [SerializeField]
-    private AudioClip _collectableSelectedSfx;
+    [SerializeField] private AudioClip _collectableSelectedSfx;
 
     private void Awake()
     {
@@ -99,6 +98,12 @@ public class InGameGUI : MonoBehaviour
         var randomTimes = Random.Range(10, 20);
         GreenLedFiller.SetMaxValue(randomTimes);
         GreenLedFiller.SetFillValue(0);
+
+        if (_cToggleUI == null)
+            _cToggleUI = StartCoroutine(ToggleImageColor(shootUIImage, 0.4f, 0.8f));
+
+
+        yield return new WaitUntil(() => _cToggleUI == null);
         AudioManager.SingleInstance.PlaySFX(_collectableChangeSfx);
         for (var i = 0; i < randomTimes; i++)
         {
@@ -124,6 +129,24 @@ public class InGameGUI : MonoBehaviour
         GreenLedFiller.SetMaxValue(_currentGoalTime);
         _currentTime = 0;
         _cChangeTarget = null;
+    }
+
+
+    private IEnumerator ToggleImageColor(Image UI, float toggleAlpha1, float toggleAlpha2 = 1)
+    {
+        var initialAlpha = UI.color.a;
+        for (var i = 0; i < 4; i++)
+        {
+            yield return new WaitUntil(() => GameManager.SingleInstance.GetCurrentGameState() == GameState.InGame);
+            yield return new WaitForSeconds(0.25f);
+            UI.color = new Color(UI.color.r, UI.color.g, UI.color.b, toggleAlpha1);
+            yield return new WaitUntil(() => GameManager.SingleInstance.GetCurrentGameState() == GameState.InGame);
+            yield return new WaitForSeconds(0.25f);
+            UI.color = new Color(UI.color.r, UI.color.g, UI.color.b, toggleAlpha2);
+        }
+
+        UI.color = new Color(UI.color.r, UI.color.g, UI.color.b, initialAlpha);
+        _cToggleUI = null;
     }
 
 

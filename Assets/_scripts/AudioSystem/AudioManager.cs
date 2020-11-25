@@ -10,6 +10,7 @@ public class AudioManager : MonoBehaviour
 
     [SerializeField, Tooltip("AudioSource para los efectos de sonidos")]
     private AudioSource _sfx;
+
     private float _currentVolumen;
 
     private AudioClip _bgmClip;
