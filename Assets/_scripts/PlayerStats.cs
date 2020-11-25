@@ -4,9 +4,12 @@ using UnityEngine;
 [DefaultExecutionOrder(-100)]
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] private bool inmortal, die;
+    [Header("---------Test----------")] [SerializeField]
+    private bool inmortal, die;
 
-    [SerializeField, Range(0, 10)] private float timeScale;
+
+    [SerializeField, Range(0, 10)] [Header("---------Test----------")]
+    private float timeScale;
 
     public static PlayerStats SingleInstance;
     private float _currentScore;
@@ -47,6 +50,7 @@ public class PlayerStats : MonoBehaviour
     private void Update()
     {
         Time.timeScale = timeScale;
+
         if (inmortal)
         {
             _currentEnergy = initialEnergy;
@@ -96,7 +100,7 @@ public class PlayerStats : MonoBehaviour
 
     public float GetCurrentScore()
     {
-        return _currentScore;
+        return Mathf.Ceil(_currentScore);
     }
 
     public float GetCurrentEnergy()

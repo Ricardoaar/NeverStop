@@ -4421,6 +4421,11 @@ PrefabInstance:
       propertyPath: _launchSfx
       value: 
       objectReference: {fileID: 8300000, guid: 146ba2f8b8f733e49bfde8a6c6d17c50, type: 3}
+    - target: {fileID: 495086824943928923, guid: 97a4ced761671db4d9047ef6d0ef1e24,
+        type: 3}
+      propertyPath: scoreDivider
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 495086826554306852, guid: 97a4ced761671db4d9047ef6d0ef1e24,
         type: 3}
       propertyPath: m_Name
