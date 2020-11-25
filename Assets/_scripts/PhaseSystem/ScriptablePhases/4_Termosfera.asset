@@ -23,7 +23,7 @@ MonoBehaviour:
   transitionTime: 4
   bgm: {fileID: 8300000, guid: 2d968b46c264c164690221531899a436, type: 3}
   phaseDecElements:
+  - {fileID: -1449628381070499058, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: 2732589466617046387, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: 2863900993551834434, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: 3366427336767055516, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
-  - {fileID: -2999002998123940087, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
