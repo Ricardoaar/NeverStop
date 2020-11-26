@@ -8,7 +8,7 @@ public class HighScoreManager : MonoBehaviour
 {
     private const string _privateCode = "tE9Lqpepy06QUg4-g7nhwwMAsmbuDQwEOvgaSt4hyB9w";
     private const string _publicCode = "5fbc3e8deb36fd2714e51817";
-    private const string _webURL = "http://dreamlo.com/lb/";
+    private const string _webURL = "https://www.dreamlo.com/lb/";
     private static HighScoreManager _instance;
     private List<Score> _listScore;
     private DisplayHighScores _displayHighScores;
@@ -17,6 +17,9 @@ public class HighScoreManager : MonoBehaviour
     {
         _displayHighScores = GetComponent<DisplayHighScores>();
         _instance = this;
+        AddNewHighScore("Run", 100);
+        AddNewHighScore("Rasd", 1002);
+        AddNewHighScore("Ruasdn", 120);
     }
 
     // Añadir nuevo Score
@@ -109,6 +112,7 @@ public class HighScoreManager : MonoBehaviour
     //Formatear el texto separado por pipes "|"
     private void FormatHighScores(string textStream)
     {
+        Debug.Log(textStream);
         _listScore = new List<Score>();
         string[] entries = textStream.Split(new[] {'\n'}, StringSplitOptions.RemoveEmptyEntries);
         foreach (var t in entries)

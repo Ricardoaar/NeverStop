@@ -7,7 +7,8 @@ public class PlayerInput : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private float _minX, _maxX, _currentVelocity;
-
+    [SerializeField] private AudioClip _shoot;
+    public static PlayerInput singleInstance;
 
     private void Awake()
     {
@@ -17,6 +18,10 @@ public class PlayerInput : MonoBehaviour
             _maxX = Camera.main.gameObject.GetComponent<BoxCollider2D>().bounds.max.x;
         }
 
+        if (singleInstance == null)
+        {
+            singleInstance = this;
+        }
 
         _rigidbody = GetComponent<Rigidbody2D>();
     }
@@ -35,5 +40,11 @@ public class PlayerInput : MonoBehaviour
         _rigidbody.MovePosition(new Vector2(Mathf.Clamp(_rigidbody.position.x +
                                                         Input.GetAxisRaw("Horizontal") * _currentVelocity *
                                                         Time.fixedDeltaTime, _minX, _maxX), _rigidbody.position.y));
+    }
+
+
+    public void Shoot()
+    {
+        AudioManager.SingleInstance.PlaySFX(_shoot);
     }
 }

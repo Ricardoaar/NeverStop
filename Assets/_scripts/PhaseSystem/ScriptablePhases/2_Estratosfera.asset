@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atmosphereLayer: "Estrat\xF3sfera"
   atmosphereLayerDescription: 20 - 49.99 km
-  minTimeCollectableChange: 9
-  maxTimeCollectableChange: 14
-  collectableVelocity: 3.5
-  timeToSpawn: 0.8
-  scoreToChangePhase: 200
+  minTimeCollectableChange: 7
+  maxTimeCollectableChange: 10
+  collectableVelocity: 4.2
+  timeToSpawn: 0.6
+  scoreToChangePhase: 180
   color: {r: 0.1764706, g: 0.3372549, b: 0.7019608, a: 1}
   transitionTime: 4
   bgm: {fileID: 8300000, guid: 892628d7751a5e648ae808fffcb8baa4, type: 3}
   phaseDecElements:
-  - {fileID: 3925514955623741397, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: 229351697062056789, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: 2262237853367971493, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
   - {fileID: -4510405598814605114, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}
+  - {fileID: -885689887391495909, guid: d5e3486a0994e994f97a39f07ff6c086, type: 3}

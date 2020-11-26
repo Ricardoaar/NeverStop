@@ -9,6 +9,7 @@ public enum CollectableType
     Reading,
     Exercising,
     Laughing,
+    Playing,
     Null
 }
 
@@ -92,14 +93,14 @@ public class Collectable : MonoBehaviour
     private int GetTemplate()
     {
         var temp = 0;
-        if (Random.Range(0.0f, 1.0f) < 0.3f)
-        {
-            foreach (var collectable in GameManager.SingleInstance.collectables.Where(collectable =>
-                collectable.type == PlayerStats.SingleInstance.GetCurrentCollectable()))
-                temp = GameManager.SingleInstance.collectables.IndexOf(collectable);
-        }
-        else
-            temp = Random.Range(0, GameManager.SingleInstance.collectables.Count);
+        // if (Random.Range(0.0f, 1.0f) < 0.1f)
+        // {
+        //     foreach (var collectable in GameManager.SingleInstance.collectables.Where(collectable =>
+        //         collectable.type == PlayerStats.SingleInstance.GetCurrentCollectable()))
+        //         temp = GameManager.SingleInstance.collectables.IndexOf(collectable);
+        // }
+        // else
+        temp = Random.Range(0, GameManager.SingleInstance.collectables.Count);
 
 
         return temp;
@@ -117,7 +118,7 @@ public class Collectable : MonoBehaviour
     {
         if (!PlayerStats.SingleInstance.Shoot() ||
             GameManager.SingleInstance.GetCurrentGameState() != GameState.InGame) return;
-
+        PlayerInput.singleInstance.Shoot();
         BeCollected();
     }
 

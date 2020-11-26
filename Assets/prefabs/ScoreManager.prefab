@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 463734614567265567}
   - component: {fileID: 463734614567265564}
   - component: {fileID: 463734614567265565}
+  - component: {fileID: 890256059}
   m_Layer: 0
   m_Name: ScoreManager
   m_TagString: Untagged
@@ -58,5 +59,66 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highScoreFields:
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &890256059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463734614567265634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f8c191136c3c054a93c88403f7bb9c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputField: {fileID: 0}
+  forbiddenWords:
+  - FreddyVerga
+  - Freddyvrga
+  - vrga
+  - pene
+  - ctm
+  - puto
+  - pto
+  - pndejo
+  - pendejo
+  - pta
+  - ptm
+  - puta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  - pta
+  onNewMaxScore:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 463734614567265565}
+        m_MethodName: NewMaxScoreRefresh
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  showInMaxScore:
   - {fileID: 0}
   - {fileID: 0}

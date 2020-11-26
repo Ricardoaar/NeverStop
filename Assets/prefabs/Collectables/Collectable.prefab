@@ -49,9 +49,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   type: 0
   particleSystem: {fileID: 5483797981486346916}
-  _rightCollectableSfx: {fileID: 8300000, guid: edab4da454475684993423d80a0bc1a3,
+  _rightCollectableSfx: {fileID: 8300000, guid: cd3132b57b9f8ee4a9122c309e0df89f,
     type: 3}
-  _badCollectableSfx: {fileID: 8300000, guid: 151a8e65ebb5ecd44bed24560cc762db, type: 3}
+  _badCollectableSfx: {fileID: 8300000, guid: d56a5b3119d266f4a8c1b04444d19abf, type: 3}
 --- !u!212 &5483797982699508717
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -137,9 +137,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00671342, y: -0.0092897415}
+  m_Offset: {x: -0.0067133904, y: 0.0062025785}
   serializedVersion: 2
-  m_Radius: 0.45742974
+  m_Radius: 0.54108846
 --- !u!1001 &2808085098895242405
 PrefabInstance:
   m_ObjectHideFlags: 0
