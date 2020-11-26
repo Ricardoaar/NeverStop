@@ -38,7 +38,6 @@ public class HighScoreReader : MonoBehaviour
         for (var i = 0; i < 3; i++)
         {
             _currentScore.Value = (int) playerScore;
-            Debug.Log(playerScore + " : " + scoreList[i]);
             if (!(playerScore > scoreList[i])) continue;
 //Muestra esta ui en caso de que haya nuevo max score
             SetObjScoreEnable(true);
@@ -62,7 +61,7 @@ public class HighScoreReader : MonoBehaviour
             _currentScore.UserName = "ForbiddenName";
 
         else
-            _currentScore.UserName = _textInfo.ToTitleCase(inputField.text).Trim().Replace(" ", "");
+            _currentScore.UserName = _textInfo.ToTitleCase(inputField.text).Trim().Replace(" ", "").Replace("*", "");
 
         SetObjScoreEnable(false);
 

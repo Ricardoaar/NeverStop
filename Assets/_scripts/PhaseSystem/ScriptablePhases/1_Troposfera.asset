@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atmosphereLayer: "Trop\xF3sfera"
   atmosphereLayerDescription: 0 - 19.99 km
-  minTimeCollectableChange: 10
-  maxTimeCollectableChange: 15
-  collectableVelocity: 3
-  timeToSpawn: 0.8
-  scoreToChangePhase: 100
+  minTimeCollectableChange: 8
+  maxTimeCollectableChange: 12
+  collectableVelocity: 3.5
+  timeToSpawn: 0.65
+  scoreToChangePhase: 80
   color: {r: 0.26666668, g: 0.43137255, b: 0.80784315, a: 1}
   transitionTime: 4
   bgm: {fileID: 8300000, guid: 0383b6868f7942048943159f743f9911, type: 3}

@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atmosphereLayer: "Ex\xF3sfera"
   atmosphereLayerDescription: 690 - 10.000 km
-  minTimeCollectableChange: 6
-  maxTimeCollectableChange: 11
-  collectableVelocity: 5.5
-  timeToSpawn: 0.5
+  minTimeCollectableChange: 4
+  maxTimeCollectableChange: 8
+  collectableVelocity: 6.2
+  timeToSpawn: 0.3
   scoreToChangePhase: 1000
   color: {r: 0.015686275, g: 0.05490196, b: 0.13333334, a: 1}
   transitionTime: 4

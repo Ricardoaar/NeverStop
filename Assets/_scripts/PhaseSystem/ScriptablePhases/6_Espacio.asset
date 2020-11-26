@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   atmosphereLayer: Espacio
   atmosphereLayerDescription: "\xA1Muy muy lejos!"
-  minTimeCollectableChange: 5
-  maxTimeCollectableChange: 10
-  collectableVelocity: 6
-  timeToSpawn: 0.3
+  minTimeCollectableChange: 4
+  maxTimeCollectableChange: 6
+  collectableVelocity: 7
+  timeToSpawn: 0.25
   scoreToChangePhase: 5000
   color: {r: 0.003921569, g: 0.02745098, b: 0.06666667, a: 0}
   transitionTime: 4
