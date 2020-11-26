@@ -160,4 +160,10 @@ public class PlayerStats : MonoBehaviour
     {
         return _canShoot;
     }
+
+
+    public bool GetLasserStatus()
+    {
+        return _canShoot;
+    }
 }
