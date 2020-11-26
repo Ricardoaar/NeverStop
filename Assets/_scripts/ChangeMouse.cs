@@ -1,7 +1,4 @@
-﻿using System;
-using UnityEditorInternal;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 using Cursor = UnityEngine.Cursor;
 
 public class ChangeMouse : MonoBehaviour
