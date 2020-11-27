@@ -29,14 +29,16 @@ public class PhaseManager : MonoBehaviour
     {
         if (GameManager.SingleInstance.GetCurrentGameState() != GameState.InGame) return;
 
-        if (PlayerStats.SingleInstance.GetCurrentScore() > _scoreToChangePhase)
+        if (
+            (PlayerStats.SingleInstance.GetCurrentScore() > _scoreToChangePhase) &&
+            (_currentPhase != _phases.Count - 1)
+            )
             ChangePhase();
     }
 
     void ChangePhase()
     {
-        _currentPhase = _currentPhase != _phases.Count - 1 ? ++_currentPhase : _currentPhase;
-        var nextPhase = _phases[_currentPhase];
+        var nextPhase = _phases[++_currentPhase];
         SpriteGenerator.ChangeSpriteList(nextPhase.phaseDecElements);
         InGameGUI.SingleInstace.ChangeLayerText(nextPhase.atmosphereLayer, nextPhase.atmosphereLayerDescription);
         _atmosphereLayer = nextPhase.atmosphereLayer;
