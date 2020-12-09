@@ -4340,6 +4340,21 @@ PrefabInstance:
       propertyPath: energyLostPerSecond
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 495086824943928923, guid: 97a4ced761671db4d9047ef6d0ef1e24,
+        type: 3}
+      propertyPath: timeBetweenShoot
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 495086824943928924, guid: 97a4ced761671db4d9047ef6d0ef1e24,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 1.358227
+      objectReference: {fileID: 0}
+    - target: {fileID: 495086824943928924, guid: 97a4ced761671db4d9047ef6d0ef1e24,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 4.25098
+      objectReference: {fileID: 0}
     - target: {fileID: 495086826554306852, guid: 97a4ced761671db4d9047ef6d0ef1e24,
         type: 3}
       propertyPath: m_Name
@@ -4582,9 +4597,26 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1311735618288630976, guid: 33893b48912f7714cb5f3816d3025806,
         type: 3}
+      propertyPath: _phases.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1311735618288630976, guid: 33893b48912f7714cb5f3816d3025806,
+        type: 3}
       propertyPath: colorChanger
       value: 
       objectReference: {fileID: 519420033}
+    - target: {fileID: 1311735618288630976, guid: 33893b48912f7714cb5f3816d3025806,
+        type: 3}
+      propertyPath: _phases.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5c58e5d41b168f3479d638a7935f9575,
+        type: 2}
+    - target: {fileID: 1311735618288630976, guid: 33893b48912f7714cb5f3816d3025806,
+        type: 3}
+      propertyPath: _phases.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 2d963b9d14592324b9c448ea9f850494,
+        type: 2}
     - target: {fileID: 1311735618288630981, guid: 33893b48912f7714cb5f3816d3025806,
         type: 3}
       propertyPath: m_Name
@@ -5633,7 +5665,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.09336912, y: 0.44258085}
   m_AnchorMax: {x: 0.92051506, y: 0.9317905}
-  m_AnchoredPosition: {x: -1.3199997, y: 1.5698929}
+  m_AnchoredPosition: {x: -1.3199921, y: 1.5698929}
   m_SizeDelta: {x: 1.7827148, y: 2.0533447}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4298713084018121218
