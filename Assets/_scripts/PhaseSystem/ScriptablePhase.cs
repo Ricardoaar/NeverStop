@@ -9,7 +9,7 @@ public class ScriptablePhase : ScriptableObject
     [TextArea, Tooltip("Descripción de la capa")]
     public string atmosphereLayerDescription;
 
-    [Tooltip("Tiempo minimo y maximo para cmabiar el colelctable")]
+    [Tooltip("Tiempo minimo y maximo para cmabiar el collectable")]
     public float minTimeCollectableChange, maxTimeCollectableChange;
 
     [Tooltip("Velocidad de los collectables")]

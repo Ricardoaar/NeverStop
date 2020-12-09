@@ -18,7 +18,7 @@ MonoBehaviour:
   maxTimeCollectableChange: 12
   collectableVelocity: 3.5
   timeToSpawn: 0.65
-  scoreToChangePhase: 80
+  scoreToChangePhase: 40
   color: {r: 0.26666668, g: 0.43137255, b: 0.80784315, a: 1}
   transitionTime: 4
   bgm: {fileID: 8300000, guid: 0383b6868f7942048943159f743f9911, type: 3}

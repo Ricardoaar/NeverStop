@@ -16,6 +16,7 @@ sysinfo.txt
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Rider Editor
 .idea/
@@ -53,6 +54,12 @@ sysinfo.txt
 *.userprefs
 *.pidb
 .DS_Store
+
+###
+# Builds
+###
+builds/
+build/
 
 ###
 # OS generated

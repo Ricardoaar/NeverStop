@@ -51,7 +51,6 @@ public class PhaseManager : MonoBehaviour
         Collectable.ChangeVelocity(nextPhase.collectableVelocity);
         StartCoroutine(FadeMixerGroup.StartFade(
             AudioManager.SingleInstance.GetAudioMixer(), "BGMVolumen", 3.5f, 0.0f));
-        //AudioManager.SingleInstance.PlayBGM(nextPhase.bgm);
         AudioManager.SingleInstance.SetBgmClip(nextPhase.bgm);
     }
 
